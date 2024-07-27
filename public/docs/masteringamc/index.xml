@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastering AMC 10/12 on A Collection of Problems</title>
+    <link>http://localhost:1313/docs/masteringamc/</link>
+    <description>Recent content in Mastering AMC 10/12 on A Collection of Problems</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/masteringamc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checklist</title>
+      <link>http://localhost:1313/docs/masteringamc/checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/masteringamc/checklist/</guid>
+      <description>Combinatorics&#xD;#&#xD;✅ Permutations and Combinations&#xA;🔲 Probability&#xA;🔲 Casework&#xA;🔲 Complementary Counting&#xA;🔲 Principle of Inclusion-Exclusion&#xA;🔲 Stars and Bars&#xA;🔲 Combinatorial Identities&#xA;🔲 Geometric Counting&#xA;🔲 Geometric Probability&#xA;🔲 Expected Value&#xA;🔲 Recursion&#xA;🔲 Probability States&#xA;Algebra&#xD;#&#xD;🔲 Algebraic Manipulations&#xA;🔲 Vieta&amp;rsquo;s&#xA;🔲 Polynomial Roots&#xA;🔲 Arithmetic Sequences&#xA;🔲 Geometric Sequences&#xA;🔲 Special Sequences&#xA;🔲 Mean, Median, Mode&#xA;✅ Systems of Equations&#xA;✅ Speed, Distance, Time</description>
+    </item>
+    <item>
+      <title>Retry List</title>
+      <link>http://localhost:1313/docs/masteringamc/wrong-questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/masteringamc/wrong-questions/</guid>
+      <description>20.2.13 - Hint: Consider the possible change in value after any operation&#xA;20.2.14 - Hint: Set up an equation and consider equality of properties (both positive)&#xA;20.2.17 - Pirate gold denominator thing</description>
+    </item>
+  </channel>
+</rss>

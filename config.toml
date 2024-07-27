@@ -1,0 +1,10 @@
+baseURL = 'https://example.com/'
+title = 'A Collection of Problems'
+theme = 'hugo-book'
+
+
+  
+[params]
+  BookTheme = 'light'
+  BookSearch = true
+  customCSS = ["/assets/css/custom.css"]

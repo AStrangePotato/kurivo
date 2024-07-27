@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Collection of Problems</title>
+    <link>http://localhost:1313/docs/polynomials-copy/</link>
+    <description>Recent content on A Collection of Problems</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/polynomials-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crafting Polynomials</title>
+      <link>http://localhost:1313/docs/polynomials-copy/crafting-polynomials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/polynomials-copy/crafting-polynomials/</guid>
+      <description>&#xD;stuff about crafting&#xD;#&#xD;</description>
+    </item>
+    <item>
+      <title>Misc</title>
+      <link>http://localhost:1313/docs/polynomials-copy/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/polynomials-copy/misc/</guid>
+      <description>&#xD;vietas&#xD;#&#xD;</description>
+    </item>
+  </channel>
+</rss>
