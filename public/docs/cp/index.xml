@@ -12,7 +12,7 @@
       <link>http://localhost:1313/docs/cp/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/cp/template/</guid>
-      <description>&#xD;Standard Codeforces Template&#xD;#&#xD;#include &amp;lt;bits/stdc++.h&amp;gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &amp;gt;&amp;gt; t; while (t--) { solve(); } } DSU&#xD;#&#xD;int find(int v) { if (v == parent[v]) return v; return parent[v] = find_set(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } </description>
+      <description>&#xD;Standard Codeforces Template&#xD;#&#xD;#include &amp;lt;bits/stdc++.h&amp;gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &amp;gt;&amp;gt; t; while (t--) { solve(); } } DSU&#xD;#&#xD;int find(int v) { if (v == parent[v]) return v; return parent[v] = find(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } </description>
     </item>
   </channel>
 </rss>

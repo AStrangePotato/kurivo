@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1313/docs/inequalities/amgm-cauchy/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/ap-calculus/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/cp/template/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/masteringamc/checklist/</loc>
@@ -12,9 +14,13 @@
   </url><url>
     <loc>http://localhost:1313/docs/trigonometry/formulas/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/ap-calculus/notes/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/counting/pie/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/masteringamc/wrong-questions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/chinese/vocab/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/ahsme/problems/</loc>
   </url><url>
@@ -33,6 +39,8 @@
     <loc>http://localhost:1313/docs/masteringamc/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/cp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/chinese/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>

@@ -3,8 +3,17 @@ title = 'A Collection of Problems'
 theme = 'hugo-book'
 
 
-  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
+
 [params]
+  math = true
   BookTheme = 'light'
   BookSearch = true
   customCSS = ["/assets/css/custom.css"]

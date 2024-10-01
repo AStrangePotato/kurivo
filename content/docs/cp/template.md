@@ -29,7 +29,7 @@ int main() {
 int find(int v) {
     if (v == parent[v])
         return v;
-    return parent[v] = find_set(parent[v]);
+    return parent[v] = find(parent[v]);
 }
 
 void unite(int x, int y) {

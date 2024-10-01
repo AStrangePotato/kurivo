@@ -5,8 +5,8 @@ weight: 1
 
 ## Combinatorics
 ✅ Permutations and Combinations\
-🔲 Probability\
-🔲 Casework\
+✅ Probability\
+✅ Casework\
 🔲 Complementary Counting\
 🔲 Principle of Inclusion-Exclusion\
 🔲 Stars and Bars\
@@ -14,9 +14,9 @@ weight: 1
 🔲 Geometric Counting\
 🔲 Geometric Probability\
 🔲 Expected Value\
-🔲 Recursion\
-🔲 Probability States
-
+✅ Recursion\
+✅ Probability States
+    
 ## Algebra
 🔲 Algebraic Manipulations\
 🔲 Vieta's\

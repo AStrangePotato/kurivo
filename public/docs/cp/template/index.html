@@ -3,13 +3,13 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DSU#int find(int v) { if (v == parent[v]) return v; return parent[v] = find_set(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } ">
+<meta name="description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DSU#int find(int v) { if (v == parent[v]) return v; return parent[v] = find(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/cp/template/">
   <meta property="og:site_name" content="A Collection of Problems">
   <meta property="og:title" content="C&#43;&#43; Template">
-  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DSU#int find(int v) { if (v == parent[v]) return v; return parent[v] = find_set(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } ">
+  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DSU#int find(int v) { if (v == parent[v]) return v; return parent[v] = find(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } ">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -19,7 +19,7 @@
 <link rel="canonical" href="http://localhost:1313/docs/cp/template/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.504c10a201bfca76856b5008785b083a0875f4f3df40dade0e949d63ab2a6b21.js" integrity="sha256-UEwQogG/ynaFa1AIeFsIOgh19PPfQNreDpSdY6sqayE=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.eb3ca8bdfba47143b00ae78c3503a00ce472469067b3fc1a5402b468016e4d72.js" integrity="sha256-6zyovfukcUOwCueMNQOgDORyRpBns/waVAK0aAFuTXI=" crossorigin="anonymous"></script>
 
   
 
@@ -28,7 +28,21 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   
+
+  
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]      
+    }
+  };
+</script>
+
+  
 </head>
+
 <body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
@@ -66,6 +80,37 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>AP Calculus</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/ap-calculus/notes/" class="">Notes</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
     
       
         <li>
@@ -310,6 +355,37 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Chinese</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/chinese/vocab/" class="">Vocab</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
   </ul>
 
 
@@ -403,7 +479,7 @@ int main() {
 <pre tabindex="0"><code>int find(int v) {
     if (v == parent[v])
         return v;
-    return parent[v] = find_set(parent[v]);
+    return parent[v] = find(parent[v]);
 }
 
 void unite(int x, int y) {
