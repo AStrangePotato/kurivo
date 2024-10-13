@@ -36,6 +36,11 @@ F is continuous over $[a, b]$ if and only if f is continuous over $(a, b)$ and t
 ### Intermediate Value Theorem
 If a function is continuous over all values in $[a, b]$ then the function must take on every value between $f(a)$ and $f(b)$ at least once.
 
+### Squeeze Theorem
+
+### Other Common Limits
+$$\lim_{x \to 0} \frac{sin(x)}{x} = 1$$
+$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
 
 
 ## Unit 2: Definition and basics of derivatives
@@ -57,9 +62,11 @@ $$\frac{d}{dx} sec(x) = \frac{sin(x)}{cos^2(x)}$$
 $$\frac{d}{dx} csc(x) = \frac{cos(x)}{sin^2(x)}$$
 
 
-
-
 ### Product and Quotient Rule
 
 $$\frac{d}{dx} f(x)g(x) = f'(x)g(x) + f(x)g'(x)$$
 $$\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}$$
+
+### Implicit differentiation
+
+Since the relation implies y is some function of x, we can set $y = f(x)$ and differentiate with the chain rule.
