@@ -12,15 +12,12 @@
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <title>Counting | A Collection of Problems</title>
-<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/counting/">
-<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
-  <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.cc4ae924ee7103014964b630dc798f01bc01efc92733121b627350ff5a2ad388.js" integrity="sha256-zErpJO5xAwFJZLYw3HmPAbwB78knMxIbYnNQ/1oq04g=" crossorigin="anonymous"></script>
-
-  
-
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.6e77fa55862489a430d2af23029d2646aa54134a2ecda23845f284a53887296a.js" integrity="sha256-bnf6VYYkiaQw0q8jAp0mRqpUE0ouzaI4RfKEpTiHKWo=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/counting/index.xml" title="A Collection of Problems" />
 <!--
 Made with Book Theme
@@ -56,11 +53,12 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 
 
-<div class="book-search">
+<div class="book-search hidden">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
 
 
@@ -73,7 +71,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
 
 
 
@@ -176,6 +173,68 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a href="/docs/counting/pie/" class="">Principle of Inclusion-Exclusion</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Inequalities</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/inequalities/amgm-cauchy/" class="">AM-GM and Cauchy Schwarz</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Trigonometry</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/trigonometry/formulas/" class="">Formulas</a>
   
 
         </li>
@@ -307,7 +366,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-
 </nav>
 
 
@@ -328,7 +386,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Counting</strong>
+  <h3>Counting</h3>
 
   <label for="toc-control">
     

@@ -3,7 +3,10 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="stuff about pie#">
+<meta name="description" content="
+  stuff about pie
+  #
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/counting/pie/">
@@ -14,15 +17,12 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
 <title>Principle of Inclusion-Exclusion | A Collection of Problems</title>
-<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/counting/pie/">
-<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
-  <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.cc4ae924ee7103014964b630dc798f01bc01efc92733121b627350ff5a2ad388.js" integrity="sha256-zErpJO5xAwFJZLYw3HmPAbwB78knMxIbYnNQ/1oq04g=" crossorigin="anonymous"></script>
-
-  
-
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.6e77fa55862489a430d2af23029d2646aa54134a2ecda23845f284a53887296a.js" integrity="sha256-bnf6VYYkiaQw0q8jAp0mRqpUE0ouzaI4RfKEpTiHKWo=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -57,11 +57,12 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 
 
-<div class="book-search">
+<div class="book-search hidden">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
 
 
@@ -74,7 +75,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
 
 
 
@@ -256,37 +256,6 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>AHSME</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/ahsme/problems/" class="">Wrong/Cool problems</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
     <span>Mastering AMC 10/12</span>
   
 
@@ -401,7 +370,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-
 </nav>
 
 
@@ -422,7 +390,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Principle of Inclusion-Exclusion</strong>
+  <h3>Principle of Inclusion-Exclusion</h3>
 
   <label for="toc-control">
     

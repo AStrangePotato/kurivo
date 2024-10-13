@@ -3,7 +3,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Unit 1: Limits and Continuity#The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.
+<meta name="description" content="
+  Unit 1: Limits and Continuity
+  #
+
+The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.
 If the left and right limits approach the same thing, it could be unbounded (tends to $\pm\infty$).
 If the left and right limits do not approach the same thing, then the limit does not exist.
 A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.">
@@ -12,7 +16,7 @@ A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/ap-calculus/notes/">
   <meta property="og:site_name" content="A Collection of Problems">
   <meta property="og:title" content="Notes">
-  <meta property="og:description" content="Unit 1: Limits and Continuity#The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.
+  <meta property="og:description" content="Unit 1: Limits and Continuity#The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.
 If the left and right limits approach the same thing, it could be unbounded (tends to $\pm\infty$).
 If the left and right limits do not approach the same thing, then the limit does not exist.
 A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.">
@@ -20,15 +24,12 @@ A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
 <title>Notes | A Collection of Problems</title>
-<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/ap-calculus/notes/">
-<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
-  <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.cc4ae924ee7103014964b630dc798f01bc01efc92733121b627350ff5a2ad388.js" integrity="sha256-zErpJO5xAwFJZLYw3HmPAbwB78knMxIbYnNQ/1oq04g=" crossorigin="anonymous"></script>
-
-  
-
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.6e77fa55862489a430d2af23029d2646aa54134a2ecda23845f284a53887296a.js" integrity="sha256-bnf6VYYkiaQw0q8jAp0mRqpUE0ouzaI4RfKEpTiHKWo=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -63,11 +64,12 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 
 
-<div class="book-search">
+<div class="book-search hidden">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
 
 
@@ -80,7 +82,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
 
 
 
@@ -183,6 +184,68 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a href="/docs/counting/pie/" class="">Principle of Inclusion-Exclusion</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Inequalities</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/inequalities/amgm-cauchy/" class="">AM-GM and Cauchy Schwarz</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Trigonometry</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/trigonometry/formulas/" class="">Formulas</a>
   
 
         </li>
@@ -314,7 +377,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-
 </nav>
 
 
@@ -335,7 +397,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Notes</strong>
+  <h3>Notes</h3>
 
   <label for="toc-control">
     
@@ -392,11 +454,7 @@ https://github.com/alex-shpak/hugo-book
   Limit Properties
   <a class="anchor" href="#limit-properties">#</a>
 </h3>
-$$\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$$
-$$\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$$
-$$\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$$
-$$\lim_{x \to p} \left(\frac{f(x)}{g(x)}\right) = \frac{\lim_{x \to p} f(x)}{\lim_{x \to p} g(x)}$$
-<h3 id="discontinuities">
+$$\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$$$$\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$$$$\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$$$$\lim_{x \to p} \left(\frac{f(x)}{g(x)}\right) = \frac{\lim_{x \to p} f(x)}{\lim_{x \to p} g(x)}$$<h3 id="discontinuities">
   Discontinuities
   <a class="anchor" href="#discontinuities">#</a>
 </h3>
@@ -424,9 +482,7 @@ F is continuous over $[a, b]$ if and only if f is continuous over $(a, b)$ and t
   Other Common Limits
   <a class="anchor" href="#other-common-limits">#</a>
 </h3>
-$$\lim_{x \to 0} \frac{sin(x)}{x} = 1$$
-$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$
-<h2 id="unit-2-definition-and-basics-of-derivatives">
+$$\lim_{x \to 0} \frac{sin(x)}{x} = 1$$$$\lim_{x \to 0} \frac{e^x - 1}{x} = 1$$<h2 id="unit-2-definition-and-basics-of-derivatives">
   Unit 2: Definition and basics of derivatives
   <a class="anchor" href="#unit-2-definition-and-basics-of-derivatives">#</a>
 </h2>
@@ -437,21 +493,11 @@ Alternate form: $\lim_{c \to x} \frac{f(c)-f(x)}{c-x}$ (simply set $c = x+h$)</p
   Common derivatives
   <a class="anchor" href="#common-derivatives">#</a>
 </h3>
-$$\frac{d}{dx} sin(x) = cos(x)$$
-$$\frac{d}{dx} cos(x) = -sin(x)$$
-$$\frac{d}{dx} tan(x) = sec^2(x)$$
-$$\frac{d}{dx} cot(x) = -csc^2(x)$$
-$$\frac{d}{dx} e^{x} = e^{x}$$
-$$\frac{d}{dx} ln(x) = 1/x$$
-$$\frac{d}{dx} sec(x) = \frac{sin(x)}{cos^2(x)}$$
-$$\frac{d}{dx} csc(x) = \frac{cos(x)}{sin^2(x)}$$
-<h3 id="product-and-quotient-rule">
+$$\frac{d}{dx} sin(x) = cos(x)$$$$\frac{d}{dx} cos(x) = -sin(x)$$$$\frac{d}{dx} tan(x) = sec^2(x)$$$$\frac{d}{dx} cot(x) = -csc^2(x)$$$$\frac{d}{dx} e^{x} = e^{x}$$$$\frac{d}{dx} ln(x) = 1/x$$$$\frac{d}{dx} sec(x) = \frac{sin(x)}{cos^2(x)}$$$$\frac{d}{dx} csc(x) = \frac{cos(x)}{sin^2(x)}$$<h3 id="product-and-quotient-rule">
   Product and Quotient Rule
   <a class="anchor" href="#product-and-quotient-rule">#</a>
 </h3>
-$$\frac{d}{dx} f(x)g(x) = f'(x)g(x) + f(x)g'(x)$$
-$$\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}$$
-<h3 id="implicit-differentiation">
+$$\frac{d}{dx} f(x)g(x) = f'(x)g(x) + f(x)g'(x)$$$$\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}$$<h3 id="implicit-differentiation">
   Implicit differentiation
   <a class="anchor" href="#implicit-differentiation">#</a>
 </h3>
