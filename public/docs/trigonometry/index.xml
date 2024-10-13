@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Collection of Problems</title>
-    <link>http://localhost:1313/docs/trigonometry/</link>
+    <link>https://example.com/docs/trigonometry/</link>
     <description>Recent content on A Collection of Problems</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/docs/trigonometry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/docs/trigonometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formulas</title>
-      <link>http://localhost:1313/docs/trigonometry/formulas/</link>
+      <link>https://example.com/docs/trigonometry/formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/trigonometry/formulas/</guid>
+      <guid>https://example.com/docs/trigonometry/formulas/</guid>
       <description>&lt;h2 id=&#34;sum-to-product&#34;&gt;&#xD;&#xA;  Sum to Product&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sum-to-product&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;$$sin(x) + sin(y) = 2sin(\frac{x+y}{2})cos(\frac{x-y}{2})$$$$sin(x) - sin(y) = 2cos(\frac{x+y}{2})sin(\frac{x-y}{2})$$&lt;h2 id=&#34;product-to-sum&#34;&gt;&#xD;&#xA;  Product to Sum&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#product-to-sum&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
     </item>
   </channel>

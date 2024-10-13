@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on A Collection of Problems</title>
-    <link>http://localhost:1313/docs/cp/</link>
+    <link>https://example.com/docs/cp/</link>
     <description>Recent content in Programming on A Collection of Problems</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/docs/cp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/docs/cp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43; Template</title>
-      <link>http://localhost:1313/docs/cp/template/</link>
+      <link>https://example.com/docs/cp/template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/cp/template/</guid>
+      <guid>https://example.com/docs/cp/template/</guid>
       <description>&lt;h2 id=&#34;standard-codeforces-template&#34;&gt;&#xD;&#xA;  Standard Codeforces Template&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#standard-codeforces-template&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;bits/stdc++.h&amp;gt;&#xA;&#xA;using namespace std;&#xA;&#xA;void solve() {&#xA;&#xA;}&#xA;&#xA;&#xA;int main() {&#xA;    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);&#xA;    int t; cin &amp;gt;&amp;gt; t;&#xA;    while (t--) {&#xA;        solve();&#xA;    }&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;dsu&#34;&gt;&#xD;&#xA;  DSU&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#dsu&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int find(int v) {&#xA;    if (v == parent[v])&#xA;        return v;&#xA;    return parent[v] = find(parent[v]);&#xA;}&#xA;&#xA;void unite(int x, int y) {&#xA;    int rootX = find(x); int rootY = find(y);&#xA;    parent[rootX] = rootY;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
