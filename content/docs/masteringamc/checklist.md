@@ -7,9 +7,9 @@ weight: 1
 ✅ Permutations and Combinations\
 ✅ Probability\
 ✅ Casework\
-🔲 Complementary Counting\
+✅ Complementary Counting\
 🔲 Principle of Inclusion-Exclusion\
-🔲 Stars and Bars\
+✅ Stars and Bars\
 🔲 Combinatorial Identities\
 🔲 Geometric Counting\
 🔲 Geometric Probability\
@@ -21,8 +21,8 @@ weight: 1
 🔲 Algebraic Manipulations\
 🔲 Vieta's\
 🔲 Polynomial Roots\
-🔲 Arithmetic Sequences\
-🔲 Geometric Sequences\
+✅ Arithmetic Sequences\
+✅ Geometric Sequences\
 🔲 Special Sequences\
 🔲 Mean, Median, Mode\
 ✅ Systems of Equations\
@@ -39,12 +39,12 @@ weight: 1
 🔲 Misc. Number Theory
 
 ## Geometry
-🔲 Angle Chasing\
+✅ Angle Chasing\
 🔲 Triangle Area and Length\
 🔲 Special Triangles\
 🔲 Similar Triangles\
 🔲 Quadrilaterals\
-🔲 Circles\
+🚧 Circles\
 🔲 Polygons\
 🔲 Area and Length of Complex Shapes\
 🔲 3-D Geometry\

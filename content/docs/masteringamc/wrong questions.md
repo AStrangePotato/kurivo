@@ -22,3 +22,7 @@ https://artofproblemsolving.com/wiki/index.php/2005_AMC_12B_Problems/Problem_22
 https://artofproblemsolving.com/wiki/index.php/2005_AMC_12B_Problems/Problem_25
 https://artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_24
 https://artofproblemsolving.com/wiki/index.php/2005_AMC_12A_Problems/Problem_24
+https://artofproblemsolving.com/wiki/index.php/1999_AHSME_Problems/Problem_25
+https://artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_24
+https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_8
+https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_6

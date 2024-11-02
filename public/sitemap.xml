@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/docs/inequalities/amgm-cauchy/</loc>
+    <loc>http://localhost:1313/docs/inequalities/amgm-cauchy/</loc>
   </url><url>
-    <loc>https://example.com/docs/ap-calculus/</loc>
+    <loc>http://localhost:1313/docs/ap-calculus/</loc>
   </url><url>
-    <loc>https://example.com/docs/cp/template/</loc>
+    <loc>http://localhost:1313/docs/cp/template/</loc>
   </url><url>
-    <loc>https://example.com/docs/masteringamc/checklist/</loc>
+    <loc>http://localhost:1313/docs/masteringamc/checklist/</loc>
   </url><url>
-    <loc>https://example.com/docs/polynomials/crafting-polynomials/</loc>
+    <loc>http://localhost:1313/docs/polynomials/crafting-polynomials/</loc>
   </url><url>
-    <loc>https://example.com/docs/trigonometry/formulas/</loc>
+    <loc>http://localhost:1313/docs/trigonometry/formulas/</loc>
   </url><url>
-    <loc>https://example.com/docs/ap-calculus/notes/</loc>
+    <loc>http://localhost:1313/docs/ap-calculus/notes/</loc>
   </url><url>
-    <loc>https://example.com/docs/counting/pie/</loc>
+    <loc>http://localhost:1313/docs/counting/pie/</loc>
   </url><url>
-    <loc>https://example.com/docs/masteringamc/wrong-questions/</loc>
+    <loc>http://localhost:1313/docs/masteringamc/wrong-questions/</loc>
   </url><url>
-    <loc>https://example.com/docs/chinese/vocab/</loc>
+    <loc>http://localhost:1313/docs/chinese/vocab/</loc>
   </url><url>
-    <loc>https://example.com/docs/polynomials/misc/</loc>
+    <loc>http://localhost:1313/docs/polynomials/misc/</loc>
   </url><url>
-    <loc>https://example.com/docs/polynomials/</loc>
+    <loc>http://localhost:1313/docs/polynomials/</loc>
   </url><url>
-    <loc>https://example.com/docs/counting/</loc>
+    <loc>http://localhost:1313/docs/counting/</loc>
   </url><url>
-    <loc>https://example.com/docs/inequalities/</loc>
+    <loc>http://localhost:1313/docs/inequalities/</loc>
   </url><url>
-    <loc>https://example.com/docs/trigonometry/</loc>
+    <loc>http://localhost:1313/docs/trigonometry/</loc>
   </url><url>
-    <loc>https://example.com/docs/masteringamc/</loc>
+    <loc>http://localhost:1313/docs/masteringamc/</loc>
   </url><url>
-    <loc>https://example.com/docs/cp/</loc>
+    <loc>http://localhost:1313/docs/cp/</loc>
   </url><url>
-    <loc>https://example.com/docs/chinese/</loc>
+    <loc>http://localhost:1313/docs/chinese/</loc>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.com/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
