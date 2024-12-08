@@ -1,2 +1,1 @@
 # A personal archive of noteworthy problems.
-
