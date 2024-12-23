@@ -29,7 +29,7 @@ A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.">
 <link rel="canonical" href="http://localhost:1313/docs/ap-calculus/notes/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.0543b6a423139e0d9a895d21a692f00362b8bc789230b8f3656469e65b0263ed.js" integrity="sha256-BUO2pCMTng2aiV0hppLwA2K4vHiSMLjzZWRp5lsCY&#43;0=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.d80f657e5cb81e2e1c0abc9a18ffc66ec1a9a63250ef364b486de6b3dae3f3dd.js" integrity="sha256-2A9lfly4Hi4cCryaGP/GbsGppjJQ7zZLSG3ms9rj890=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -451,6 +451,16 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#mean-value-theorem">Mean Value Theorem</a></li>
         <li><a href="#extreme-value-theorem">Extreme Value Theorem</a></li>
         <li><a href="#concavity">Concavity</a></li>
+        <li><a href="#optimization">Optimization</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-6-integration-and-accumulation-of-change">Unit 6: Integration and Accumulation of change</a>
+      <ul>
+        <li><a href="#riemann-sums">Riemann sums</a></li>
+        <li><a href="#fundamental-theorem-of-calculus">Fundamental Theorem of Calculus</a></li>
+        <li><a href="#properties-of-definite-integrals">Properties of Definite Integrals</a></li>
+        <li><a href="#rules-of-integration">Rules of integration</a></li>
+        <li><a href="#u-substitution">U-substitution</a></li>
       </ul>
     </li>
   </ul>
@@ -589,6 +599,51 @@ $$\frac{d}{dx} log_b(x) = \frac{1}{x \cdot ln(b)}$$$$\frac{d}{dx} a^x = ln(a)\cd
   Concavity
   <a class="anchor" href="#concavity">#</a>
 </h3>
+<p>A section is concave upwards if the derivative is increasing over that interval. Concave downwards if decreasing over that interval.</p>
+<p>For concave upwards, the second derivative is positive. Concave downwards, the second derivative is negative.</p>
+<p>The <em>possible</em> inflection points happen when the second derivative is zero or undefined. However, these are just candidates - an actual inflection point must be when the second derviative changes signs. Remember to also check the original function is defined for this candidate point.</p>
+<h3 id="optimization">
+  Optimization
+  <a class="anchor" href="#optimization">#</a>
+</h3>
+<p>Just setup up an equation and be careful, check both endpoints, defined in original function, &hellip;</p>
+<h2 id="unit-6-integration-and-accumulation-of-change">
+  Unit 6: Integration and Accumulation of change
+  <a class="anchor" href="#unit-6-integration-and-accumulation-of-change">#</a>
+</h2>
+<h3 id="riemann-sums">
+  Riemann sums
+  <a class="anchor" href="#riemann-sums">#</a>
+</h3>
+<p>Left, right, midpoint, trapezoidal Riemann sums. Use in place of integration when function is difficult to integrate.</p>
+<h3 id="fundamental-theorem-of-calculus">
+  Fundamental Theorem of Calculus
+  <a class="anchor" href="#fundamental-theorem-of-calculus">#</a>
+</h3>
+$$\frac{dF}{dx} = \frac{d}{dx}\int_{a}^{x}f(t)dt = f(x) $$<p>
+Every continuous function $f$ has an anti-derivative $F$.</p>
+<h3 id="properties-of-definite-integrals">
+  Properties of Definite Integrals
+  <a class="anchor" href="#properties-of-definite-integrals">#</a>
+</h3>
+<p>Area below curve is negative area.</p>
+<p>Integral of a line is 0.</p>
+<p>You can take out the constant in an integral.</p>
+<p>Swapping bounds of integration results in the negative of the value.</p>
+<p>Integral of a sum of functions is the sum of the integrals of the functions.</p>
+<p>You can break apart integrals.</p>
+<h3 id="rules-of-integration">
+  Rules of integration
+  <a class="anchor" href="#rules-of-integration">#</a>
+</h3>
+<p>$\int x^n dx = \frac{x^{n+1}}{n+1} + C$</p>
+<p>$\int cf(x) dx = c \int f(x) dx$</p>
+<p>$\int(f(x) + g(x))dx = \int f(x) dx + \int g(x) dx$</p>
+<p>$\int \frac{1}{x} dx = ln(|x|) + C$</p>
+<h3 id="u-substitution">
+  U-substitution
+  <a class="anchor" href="#u-substitution">#</a>
+</h3>
 </article>
  
       
@@ -668,6 +723,16 @@ $$\frac{d}{dx} log_b(x) = \frac{1}{x \cdot ln(b)}$$$$\frac{d}{dx} a^x = ln(a)\cd
         <li><a href="#mean-value-theorem">Mean Value Theorem</a></li>
         <li><a href="#extreme-value-theorem">Extreme Value Theorem</a></li>
         <li><a href="#concavity">Concavity</a></li>
+        <li><a href="#optimization">Optimization</a></li>
+      </ul>
+    </li>
+    <li><a href="#unit-6-integration-and-accumulation-of-change">Unit 6: Integration and Accumulation of change</a>
+      <ul>
+        <li><a href="#riemann-sums">Riemann sums</a></li>
+        <li><a href="#fundamental-theorem-of-calculus">Fundamental Theorem of Calculus</a></li>
+        <li><a href="#properties-of-definite-integrals">Properties of Definite Integrals</a></li>
+        <li><a href="#rules-of-integration">Rules of integration</a></li>
+        <li><a href="#u-substitution">U-substitution</a></li>
       </ul>
     </li>
   </ul>

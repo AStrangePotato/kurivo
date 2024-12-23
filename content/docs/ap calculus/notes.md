@@ -121,3 +121,50 @@ A critical point is a point at which the derivative of the function is either ze
 
 ### Concavity 
 
+A section is concave upwards if the derivative is increasing over that interval. Concave downwards if decreasing over that interval.
+
+For concave upwards, the second derivative is positive. Concave downwards, the second derivative is negative.
+
+The *possible* inflection points happen when the second derivative is zero or undefined. However, these are just candidates - an actual inflection point must be when the second derviative changes signs. Remember to also check the original function is defined for this candidate point.
+
+### Optimization
+
+Just setup up an equation and be careful, check both endpoints, defined in original function, ...
+
+
+## Unit 6: Integration and Accumulation of change
+
+### Riemann sums
+
+Left, right, midpoint, trapezoidal Riemann sums. Use in place of integration when function is difficult to integrate.
+
+### Fundamental Theorem of Calculus
+
+$$\frac{dF}{dx} = \frac{d}{dx}\int_{a}^{x}f(t)dt = f(x) $$
+Every continuous function $f$ has an anti-derivative $F$.
+
+### Properties of Definite Integrals
+
+Area below curve is negative area.
+
+Integral of a line is 0.
+
+You can take out the constant in an integral.
+
+Swapping bounds of integration results in the negative of the value.
+
+Integral of a sum of functions is the sum of the integrals of the functions.
+
+You can break apart integrals.
+
+### Rules of integration
+
+$\int x^n dx = \frac{x^{n+1}}{n+1} + C$
+
+$\int cf(x) dx = c \int f(x) dx$
+
+$\int(f(x) + g(x))dx = \int f(x) dx + \int g(x) dx$
+
+$\int \frac{1}{x} dx = ln(|x|) + C$
+
+### U-substitution
