@@ -167,4 +167,43 @@ $\int(f(x) + g(x))dx = \int f(x) dx + \int g(x) dx$
 
 $\int \frac{1}{x} dx = ln(|x|) + C$
 
-### U-substitution
+### Options for integration
+
+U-substition, completing the square, integration by parts, partial fraction
+
+
+## Unit 7: Applications of differentiation
+
+Slope fields - a graphical representation of solutions to a differential equation
+
+Euler's method - approximation method for finding a solution
+
+Seperable differential equation - can be written as $f(x)dx = g(y)dy$
+
+Logistic equation - $\frac{dN}{dt} = kN(1 - N/c), where c is carrying capacity, k is proportionality constant
+
+## Unit 8: Applications of integration
+
+Average value of a function: area of function / length of range
+
+Disk / Washer method: for finding volume by rotation
+
+
+### Good Problem for FTC 
+
+Arc length: take hypotenuses of many little right triangles of width dx and height dy, get $\int \sqrt{1+(\frac{dy}{dx})^2}dx$
+
+Let $f$ be a differentiable function such that $f(2) = 1$ and $f'(x) = \sin(x^2 - 5).$
+
+What is the value of $f(6)$?
+
+
+## Unit 9: Parametric equations, polar coordinates, and vector-valued functions
+
+Parametric equations: defining x and t in terms of a parameter
+
+## Unit 10: Infinite sequences and series
+
+n'th term test: if a_n does not converge to 0, then the series definitely diverges
+
+integral test: 
