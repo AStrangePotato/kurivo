@@ -167,6 +167,10 @@ $\int(f(x) + g(x))dx = \int f(x) dx + \int g(x) dx$
 
 $\int \frac{1}{x} dx = ln(|x|) + C$
 
+$\int \frac{1}{\sqrt{a^2-x^2}} dx = arcsin(\frac{x}{a}) + C$
+
+$\int \frac{1}{a^2 + x^2} dx = \frac{1}{a}arctan(\frac{x}{a}) + C$
+
 ### Options for integration
 
 U-substition, completing the square, integration by parts, partial fraction
@@ -174,13 +178,14 @@ U-substition, completing the square, integration by parts, partial fraction
 
 ## Unit 7: Applications of differentiation
 
-Slope fields - a graphical representation of solutions to a differential equation
+Slope fields: A graphical representation of solutions to a differential equation.
 
-Euler's method - approximation method for finding a solution
+Euler's method: An approximation method for finding a solution to a differential equation.
 
-Seperable differential equation - can be written as $f(x)dx = g(y)dy$
+Separable differential equation: A differential equation that can be written in the form $f(x) \, dx = g(y) \, dy$.
 
-Logistic equation - $\frac{dN}{dt} = kN(1 - N/c), where c is carrying capacity, k is proportionality constant
+Logistic equation: $\frac{dN}{dt} = kN\left(1 - \frac{N}{c}\right)$, where $c$ is the carrying capacity and $k$ is the proportionality constant.
+
 
 ## Unit 8: Applications of integration
 
@@ -188,10 +193,9 @@ Average value of a function: area of function / length of range
 
 Disk / Washer method: for finding volume by rotation
 
+Arc length: take hypotenuses of many little right triangles of width dx and height dy, get $\int \sqrt{1+(\frac{dy}{dx})^2}dx$
 
 ### Good Problem for FTC 
-
-Arc length: take hypotenuses of many little right triangles of width dx and height dy, get $\int \sqrt{1+(\frac{dy}{dx})^2}dx$
 
 Let $f$ be a differentiable function such that $f(2) = 1$ and $f'(x) = \sin(x^2 - 5).$
 
@@ -200,10 +204,33 @@ What is the value of $f(6)$?
 
 ## Unit 9: Parametric equations, polar coordinates, and vector-valued functions
 
-Parametric equations: defining x and t in terms of a parameter
+Parametric equations: defining x and y in terms of a parameter
+
+Represented as $\vec{r}(t) = \langle x(t), y(t) \rangle$.
 
 ## Unit 10: Infinite sequences and series
 
-n'th term test: if a_n does not converge to 0, then the series definitely diverges
+**n-th term test**: If $a_n$ does not converge to $0$, then the series $\sum a_n$ definitely diverges.
 
-integral test: 
+**Integral test**: For a positive, continuous, and decreasing function $f(x)$, the improper integral $\int_1^\infty f(x) \, dx$ can be used to estimate the area of the series. The behaviour of the series is the same as that of the integral.
+
+**p-series**: A series of the form $\sum \frac{1}{n^p}$ converges if and only if $p > 1$.
+
+**Comparison test**: Compare $\sum a_n$ to another series $\sum b_n$ where $b_n$ is known. If $0 \leq a_n \leq b_n$ for all $n$, then:
+- If $\sum b_n$ converges, so does $\sum a_n$.
+- If $\sum a_n$ diverges, so does $\sum b_n$.
+
+**Limit comparison test**: For $\sum a_n$ and $\sum b_n$ with $a_n, b_n > 0$, if $\lim_{n \to \infty} \frac{a_n}{b_n} = c$, where $c > 0$ is finite, then both series converge or diverge together.
+
+**Alternating series test**: For an alternating series $\sum (-1)^n b_n$, where $b_n$ is positive:
+- If $b_n$ is decreasing and $\lim_{n \to \infty} b_n = 0$, then the series converges.
+- This test does not provide information about divergence.
+
+**Ratio test**: Consider the ratio $\lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right|$:
+- If the ratio is $< 1$, the series converges absolutely.
+- If the ratio is $> 1$, the series diverges.
+- If the ratio is $= 1$, the test is inconclusive.
+
+**Conditional and absolute convergence**:
+- A series $\sum a_n$ converges **absolutely** if $\sum |a_n|$ converges.
+- A series converges **conditionally** if $\sum a_n$ converges but $\sum |a_n|$ diverges.

@@ -29,7 +29,7 @@ A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.">
 <link rel="canonical" href="http://localhost:1313/docs/ap-calculus/notes/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.df5728548dbf1252680fe1542c2878114abf53ab84e938a105c9e4f25eb23ceb.js" integrity="sha256-31coVI2/ElJoD&#43;FULCh4EUq/U6uE6TihBcnk8l6yPOs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.fcaeddadc9962c52f81d69dbf2ad83db1c1ef20b9cde5d1905997cd2939eff5e.js" integrity="sha256-/K7drcmWLFL4HWnb8q2D2xwe8guc3l0ZBZl80pOe/14=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -321,6 +321,19 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a href="/docs/cp/template/" class="">C&#43;&#43; Template</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/cp/insights/" class="">Insights for Problems</a>
   
 
         </li>
@@ -648,6 +661,8 @@ Every continuous function $f$ has an anti-derivative $F$.</p>
 <p>$\int cf(x) dx = c \int f(x) dx$</p>
 <p>$\int(f(x) + g(x))dx = \int f(x) dx + \int g(x) dx$</p>
 <p>$\int \frac{1}{x} dx = ln(|x|) + C$</p>
+<p>$\int \frac{1}{\sqrt{a^2-x^2}} dx = arcsin(\frac{x}{a}) + C$</p>
+<p>$\int \frac{1}{a^2 + x^2} dx = \frac{1}{a}arctan(\frac{x}{a}) + C$</p>
 <h3 id="options-for-integration">
   Options for integration
   <a class="anchor" href="#options-for-integration">#</a>
@@ -657,32 +672,58 @@ Every continuous function $f$ has an anti-derivative $F$.</p>
   Unit 7: Applications of differentiation
   <a class="anchor" href="#unit-7-applications-of-differentiation">#</a>
 </h2>
-<p>Slope fields - a graphical representation of solutions to a differential equation</p>
-<p>Euler&rsquo;s method - approximation method for finding a solution</p>
-<p>Seperable differential equation - can be written as $f(x)dx = g(y)dy$</p>
-<p>Logistic equation - $\frac{dN}{dt} = kN(1 - N/c), where c is carrying capacity, k is proportionality constant</p>
+<p>Slope fields: A graphical representation of solutions to a differential equation.</p>
+<p>Euler&rsquo;s method: An approximation method for finding a solution to a differential equation.</p>
+<p>Separable differential equation: A differential equation that can be written in the form $f(x) \, dx = g(y) \, dy$.</p>
+<p>Logistic equation: $\frac{dN}{dt} = kN\left(1 - \frac{N}{c}\right)$, where $c$ is the carrying capacity and $k$ is the proportionality constant.</p>
 <h2 id="unit-8-applications-of-integration">
   Unit 8: Applications of integration
   <a class="anchor" href="#unit-8-applications-of-integration">#</a>
 </h2>
 <p>Average value of a function: area of function / length of range</p>
 <p>Disk / Washer method: for finding volume by rotation</p>
+<p>Arc length: take hypotenuses of many little right triangles of width dx and height dy, get $\int \sqrt{1+(\frac{dy}{dx})^2}dx$</p>
 <h3 id="good-problem-for-ftc">
   Good Problem for FTC
   <a class="anchor" href="#good-problem-for-ftc">#</a>
 </h3>
-<p>Arc length: take hypotenuses of many little right triangles of width dx and height dy, get $\int \sqrt{1+(\frac{dy}{dx})^2}dx$</p>
 <p>Let $f$ be a differentiable function such that $f(2) = 1$ and $f'(x) = \sin(x^2 - 5).$</p>
 <p>What is the value of $f(6)$?</p>
 <h2 id="unit-9-parametric-equations-polar-coordinates-and-vector-valued-functions">
   Unit 9: Parametric equations, polar coordinates, and vector-valued functions
   <a class="anchor" href="#unit-9-parametric-equations-polar-coordinates-and-vector-valued-functions">#</a>
 </h2>
-<p>Parametric equations: defining x and t in terms of a parameter</p>
+<p>Parametric equations: defining x and y in terms of a parameter</p>
+<p>Represented as $\vec{r}(t) = \langle x(t), y(t) \rangle$.</p>
 <h2 id="unit-10-infinite-sequences-and-series">
   Unit 10: Infinite sequences and series
   <a class="anchor" href="#unit-10-infinite-sequences-and-series">#</a>
 </h2>
+<p><strong>n-th term test</strong>: If $a_n$ does not converge to $0$, then the series $\sum a_n$ definitely diverges.</p>
+<p><strong>Integral test</strong>: For a positive, continuous, and decreasing function $f(x)$, the improper integral $\int_1^\infty f(x) \, dx$ can be used to estimate the area of the series. The behaviour of the series is the same as that of the integral.</p>
+<p><strong>p-series</strong>: A series of the form $\sum \frac{1}{n^p}$ converges if and only if $p > 1$.</p>
+<p><strong>Comparison test</strong>: Compare $\sum a_n$ to another series $\sum b_n$ where $b_n$ is known. If $0 \leq a_n \leq b_n$ for all $n$, then:</p>
+<ul>
+<li>If $\sum b_n$ converges, so does $\sum a_n$.</li>
+<li>If $\sum a_n$ diverges, so does $\sum b_n$.</li>
+</ul>
+<p><strong>Limit comparison test</strong>: For $\sum a_n$ and $\sum b_n$ with $a_n, b_n > 0$, if $\lim_{n \to \infty} \frac{a_n}{b_n} = c$, where $c > 0$ is finite, then both series converge or diverge together.</p>
+<p><strong>Alternating series test</strong>: For an alternating series $\sum (-1)^n b_n$, where $b_n$ is positive:</p>
+<ul>
+<li>If $b_n$ is decreasing and $\lim_{n \to \infty} b_n = 0$, then the series converges.</li>
+<li>This test does not provide information about divergence.</li>
+</ul>
+<p><strong>Ratio test</strong>: Consider the ratio $\lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right|$:</p>
+<ul>
+<li>If the ratio is $< 1$, the series converges absolutely.</li>
+<li>If the ratio is $> 1$, the series diverges.</li>
+<li>If the ratio is $= 1$, the test is inconclusive.</li>
+</ul>
+<p><strong>Conditional and absolute convergence</strong>:</p>
+<ul>
+<li>A series $\sum a_n$ converges <strong>absolutely</strong> if $\sum |a_n|$ converges.</li>
+<li>A series converges <strong>conditionally</strong> if $\sum a_n$ converges but $\sum |a_n|$ diverges.</li>
+</ul>
 </article>
  
       

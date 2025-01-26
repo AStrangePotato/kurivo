@@ -4,22 +4,53 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
-  vietas
+  Standard Codeforces Template
   #
+
+#include &lt;bits/stdc&#43;&#43;.h&gt;
+
+using namespace std;
+
+void solve() {
+
+}
+
+
+int main() {
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    int t; cin &gt;&gt; t;
+    while (t--) {
+        solve();
+    }
+}
+
+  DSU
+  #
+
+int find(int v) {
+    if (v == parent[v])
+        return v;
+    return parent[v] = find(parent[v]);
+}
+
+void unite(int x, int y) {
+    int rootX = find(x); int rootY = find(y);
+    parent[rootX] = rootY;
+}
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/polynomials/misc/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/cp/template-copy/">
   <meta property="og:site_name" content="A Collection of Problems">
-  <meta property="og:title" content="Misc">
-  <meta property="og:description" content="vietas#">
+  <meta property="og:title" content="C&#43;&#43; Template">
+  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DSU#int find(int v) { if (v == parent[v]) return v; return parent[v] = find(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } ">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-<title>Misc | A Collection of Problems</title>
+<title>C&#43;&#43; Template | A Collection of Problems</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="http://localhost:1313/docs/polynomials/misc/">
+<link rel="canonical" href="http://localhost:1313/docs/cp/template-copy/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
   <script defer src="/en.search.min.fcaeddadc9962c52f81d69dbf2ad83db1c1ef20b9cde5d1905997cd2939eff5e.js" integrity="sha256-/K7drcmWLFL4HWnb8q2D2xwe8guc3l0ZBZl80pOe/14=" crossorigin="anonymous"></script>
@@ -145,7 +176,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/polynomials/misc/" class="active">Misc</a>
+    <a href="/docs/polynomials/misc/" class="">Misc</a>
   
 
         </li>
@@ -313,7 +344,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/cp/template/" class="">C&#43;&#43; Template</a>
+    <a href="/docs/cp/template-copy/" class="active">C&#43;&#43; Template</a>
   
 
         </li>
@@ -326,7 +357,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/cp/insights/" class="">Insights for Problems</a>
+    <a href="/docs/cp/template/" class="">C&#43;&#43; Template</a>
   
 
         </li>
@@ -403,7 +434,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Misc</h3>
+  <h3>C&#43;&#43; Template</h3>
 
   <label for="toc-control">
     
@@ -417,7 +448,12 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#standard-codeforces-template">Standard Codeforces Template</a></li>
+    <li><a href="#dsu">DSU</a></li>
+  </ul>
+</nav>
 
 
 
@@ -428,11 +464,41 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h1 id="vietas">
-  vietas
-  <a class="anchor" href="#vietas">#</a>
-</h1>
-</article>
+  <article class="markdown book-article"><h2 id="standard-codeforces-template">
+  Standard Codeforces Template
+  <a class="anchor" href="#standard-codeforces-template">#</a>
+</h2>
+<pre tabindex="0"><code>#include &lt;bits/stdc++.h&gt;
+
+using namespace std;
+
+void solve() {
+
+}
+
+
+int main() {
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    int t; cin &gt;&gt; t;
+    while (t--) {
+        solve();
+    }
+}
+</code></pre><h2 id="dsu">
+  DSU
+  <a class="anchor" href="#dsu">#</a>
+</h2>
+<pre tabindex="0"><code>int find(int v) {
+    if (v == parent[v])
+        return v;
+    return parent[v] = find(parent[v]);
+}
+
+void unite(int x, int y) {
+    int rootX = find(x); int rootY = find(y);
+    parent[rootX] = rootY;
+}
+</code></pre></article>
  
       
 
@@ -471,7 +537,12 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#standard-codeforces-template">Standard Codeforces Template</a></li>
+    <li><a href="#dsu">DSU</a></li>
+  </ul>
+</nav>
 
 
  
