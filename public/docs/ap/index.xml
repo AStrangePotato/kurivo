@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AP Calculus on A Collection of Problems</title>
-    <link>http://localhost:1313/docs/ap-calculus/</link>
-    <description>Recent content in AP Calculus on A Collection of Problems</description>
+    <title>AP Notes on A Collection of Problems</title>
+    <link>http://localhost:1313/docs/ap/</link>
+    <description>Recent content in AP Notes on A Collection of Problems</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/docs/ap-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/ap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes</title>
-      <link>http://localhost:1313/docs/ap-calculus/calc/</link>
+      <link>http://localhost:1313/docs/ap/calc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/ap-calculus/calc/</guid>
+      <guid>http://localhost:1313/docs/ap/calc/</guid>
       <description>&lt;h2 id=&#34;unit-1-limits-and-continuity&#34;&gt;&#xD;&#xA;  Unit 1: Limits and Continuity&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unit-1-limits-and-continuity&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.&lt;/p&gt;&#xA;&lt;p&gt;If the left and right limits approach the same thing, it could be unbounded (tends to $\pm\infty$).&lt;/p&gt;&#xA;&lt;p&gt;If the left and right limits do not approach the same thing, then the limit does not exist.&lt;/p&gt;&#xA;&lt;p&gt;A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Psychology Cheat Sheet</title>
-      <link>http://localhost:1313/docs/ap-calculus/psy/</link>
+      <link>http://localhost:1313/docs/ap/psy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/ap-calculus/psy/</guid>
+      <guid>http://localhost:1313/docs/ap/psy/</guid>
       <description>&lt;h3 id=&#34;unit-i&#34;&gt;&#xD;&#xA;  Unit I&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unit-i&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;empiricism&#xA;the view that knowledge originates in experience and that science should, therefore, rely and observation and experimentation.&lt;/p&gt;&#xA;&lt;p&gt;structuralism&#xA;an early school of psychology that used introspection to explore the elemental structure of the human mind&lt;/p&gt;&#xA;&lt;p&gt;functionalism&#xA;a school of psychology that focused on how our mental and behavioral processes function-how they enable us to adapt, survive and flourish&lt;/p&gt;&#xA;&lt;p&gt;experimental psychology&#xA;the study of behavior and thinking using the experimental method&lt;/p&gt;</description>
     </item>
   </channel>

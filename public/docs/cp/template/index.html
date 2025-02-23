@@ -24,36 +24,36 @@ int main() {
     }
 }
 
-  DSU
+  DP checklist
   #
 
-int find(int v) {
-    if (v == parent[v])
-        return v;
-    return parent[v] = find(parent[v]);
-}
 
-void unite(int x, int y) {
-    int rootX = find(x); int rootY = find(y);
-    parent[rootX] = rootY;
-}
-">
+
+Identify Overlapping Subproblems
+Look for a recursive structure where subproblems repeat.
+Think: &ldquo;Can I break this problem into smaller versions of itself?&rdquo;
+
+
+Define the State
+Clearly define dp[i] (or dp[i][j] in 2D cases) in words.
+Ensure it fully captures the problem’s essential information at step i.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/cp/template/">
   <meta property="og:site_name" content="A Collection of Problems">
-  <meta property="og:title" content="C&#43;&#43; Template">
-  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DSU#int find(int v) { if (v == parent[v]) return v; return parent[v] = find(parent[v]); } void unite(int x, int y) { int rootX = find(x); int rootY = find(y); parent[rootX] = rootY; } ">
+  <meta property="og:title" content="Misc">
+  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DP checklist#Identify Overlapping Subproblems Look for a recursive structure where subproblems repeat. Think: “Can I break this problem into smaller versions of itself?”
+Define the State Clearly define dp[i] (or dp[i][j] in 2D cases) in words. Ensure it fully captures the problem’s essential information at step i.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-<title>C&#43;&#43; Template | A Collection of Problems</title>
+<title>Misc | A Collection of Problems</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/cp/template/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.fcaeddadc9962c52f81d69dbf2ad83db1c1ef20b9cde5d1905997cd2939eff5e.js" integrity="sha256-/K7drcmWLFL4HWnb8q2D2xwe8guc3l0ZBZl80pOe/14=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.e77be526195196e18ccb3029520e03f8260b65aeeeb4982479577104cb75615f.js" integrity="sha256-53vlJhlRluGMyzApUg4D&#43;CYLZa7utJgkeVdxBMt1YV8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -331,7 +331,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>Programming</span>
+    <a href="/docs/cp/" class="">Programming</a>
   
 
           
@@ -344,7 +344,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/cp/template/" class="active">C&#43;&#43; Template</a>
+    <a href="/docs/cp/insights/" class="">Insights for Problems</a>
   
 
         </li>
@@ -357,7 +357,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/cp/insights/" class="">Insights for Problems</a>
+    <a href="/docs/cp/template/" class="active">Misc</a>
   
 
         </li>
@@ -434,7 +434,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>C&#43;&#43; Template</h3>
+  <h3>Misc</h3>
 
   <label for="toc-control">
     
@@ -451,7 +451,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#standard-codeforces-template">Standard Codeforces Template</a></li>
-    <li><a href="#dsu">DSU</a></li>
+    <li><a href="#dp-checklist">DP checklist</a></li>
   </ul>
 </nav>
 
@@ -484,21 +484,32 @@ int main() {
         solve();
     }
 }
-</code></pre><h2 id="dsu">
-  DSU
-  <a class="anchor" href="#dsu">#</a>
+</code></pre><h2 id="dp-checklist">
+  DP checklist
+  <a class="anchor" href="#dp-checklist">#</a>
 </h2>
-<pre tabindex="0"><code>int find(int v) {
-    if (v == parent[v])
-        return v;
-    return parent[v] = find(parent[v]);
-}
-
-void unite(int x, int y) {
-    int rootX = find(x); int rootY = find(y);
-    parent[rootX] = rootY;
-}
-</code></pre></article>
+<ol>
+<li>
+<p>Identify Overlapping Subproblems
+Look for a recursive structure where subproblems repeat.
+Think: &ldquo;Can I break this problem into smaller versions of itself?&rdquo;</p>
+</li>
+<li>
+<p>Define the State
+Clearly define dp[i] (or dp[i][j] in 2D cases) in words.
+Ensure it fully captures the problem’s essential information at step i.</p>
+</li>
+<li>
+<p>Establish the Transition
+Determine how dp[i] relates to previous states.</p>
+</li>
+<li>
+<p>Base Case(s)
+Identify simple cases where the answer is directly known.
+Ensure correct initialization to avoid incorrect propagation.</p>
+</li>
+</ol>
+</article>
  
       
 
@@ -540,7 +551,7 @@ void unite(int x, int y) {
 <nav id="TableOfContents">
   <ul>
     <li><a href="#standard-codeforces-template">Standard Codeforces Template</a></li>
-    <li><a href="#dsu">DSU</a></li>
+    <li><a href="#dp-checklist">DP checklist</a></li>
   </ul>
 </nav>
 

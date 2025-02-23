@@ -173,7 +173,7 @@ $\int \frac{1}{a^2 + x^2} dx = \frac{1}{a}arctan(\frac{x}{a}) + C$
 
 ### Options for integration
 
-U-substition, completing the square, integration by parts, partial fraction
+U-substition, completing the square + trig, integration by parts, partial fraction
 
 
 ## Unit 7: Applications of differentiation
@@ -210,27 +210,48 @@ Represented as $\vec{r}(t) = \langle x(t), y(t) \rangle$.
 
 ## Unit 10: Infinite sequences and series
 
-**n-th term test**: If $a_n$ does not converge to $0$, then the series $\sum a_n$ definitely diverges.
+### Divergence and Convergence Tests
 
-**Integral test**: For a positive, continuous, and decreasing function $f(x)$, the improper integral $\int_1^\infty f(x) \, dx$ can be used to estimate the area of the series. The behaviour of the series is the same as that of the integral.
+n-th term test: If $a_n$ does not converge to $0$, then the series $\sum a_n$ definitely diverges.
 
-**p-series**: A series of the form $\sum \frac{1}{n^p}$ converges if and only if $p > 1$.
+Integral test: For a positive, continuous, and decreasing function $f(x)$, the improper integral $\int_1^\infty f(x) \, dx$ can be used to estimate the area of the series. The behaviour of the series is the same as that of the integral.
 
-**Comparison test**: Compare $\sum a_n$ to another series $\sum b_n$ where $b_n$ is known. If $0 \leq a_n \leq b_n$ for all $n$, then:
+p-series: A series of the form $\sum \frac{1}{n^p}$ converges if and only if $p > 1$.
+
+Comparison test: Compare $\sum a_n$ to another series $\sum b_n$ where $b_n$ is known. If $0 \leq a_n \leq b_n$ for all $n$, then:
 - If $\sum b_n$ converges, so does $\sum a_n$.
 - If $\sum a_n$ diverges, so does $\sum b_n$.
 
-**Limit comparison test**: For $\sum a_n$ and $\sum b_n$ with $a_n, b_n > 0$, if $\lim_{n \to \infty} \frac{a_n}{b_n} = c$, where $c > 0$ is finite, then both series converge or diverge together.
+Limit comparison test: For $\sum a_n$ and $\sum b_n$ with $a_n, b_n > 0$, if $\lim_{n \to \infty} \frac{a_n}{b_n} = c$, where $c > 0$ is finite, then both series converge or diverge together.
 
-**Alternating series test**: For an alternating series $\sum (-1)^n b_n$, where $b_n$ is positive:
+Alternating series test: For an alternating series $\sum (-1)^n b_n$, where $b_n$ is positive:
 - If $b_n$ is decreasing and $\lim_{n \to \infty} b_n = 0$, then the series converges.
 - This test does not provide information about divergence.
 
-**Ratio test**: Consider the ratio $\lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right|$:
+Ratio test: Consider the ratio $\lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right|$:
 - If the ratio is $< 1$, the series converges absolutely.
 - If the ratio is $> 1$, the series diverges.
 - If the ratio is $= 1$, the test is inconclusive.
 
-**Conditional and absolute convergence**:
-- A series $\sum a_n$ converges **absolutely** if $\sum |a_n|$ converges.
-- A series converges **conditionally** if $\sum a_n$ converges but $\sum |a_n|$ diverges.
+Conditional and absolute convergence:
+- A series $\sum a_n$ converges absolutely if $\sum |a_n|$ converges.
+- A series converges conditionally if $\sum a_n$ converges but $\sum |a_n|$ diverges.
+
+
+### Approximating functions with polynomials
+
+McLaurin series: Taylor series centered at 0
+
+Taylor series: $P(x) = \sum^{\infty}_{n=0}\frac{1}{n!}f^{(n)}(a) * (x-a)^n$, where the polynomial is centered around a.
+
+An geometric sum can be converted back to an infinite series if it's in the approrpiate form.
+
+function -> geo series
+series -> function
+
+interval of convergence (radius is half the interval)
+
+match the constant
+
+basically find a power series to aprpoximate function
+

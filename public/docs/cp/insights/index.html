@@ -3,13 +3,41 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="asd">
+<meta name="description" content="
+  Knight&rsquo;s Moves
+  #
+
+Each move reduces manhattan distance to finish, so process dp in order of decreasing manhattan.
+
+  Anya and Cubes
+  #
+
+Meet in the middle with 0/1/2 bitmask-style in $O(n^{3/2})$.
+
+  Lifeguards
+  #
+
+Maintain a set of active lifeguards and linesweep.
+
+  Minimum Coverage
+  #
+
+Linesweep and greedily take whatever ends the latest, while starting before the current segment ends.
+
+  Closest Cow Wins
+  #
+
+Split into segments between enemy cows. Then it is always possible to place 1 or 2 cows to claim everything in an interval. Find for each interval, the maximum 1 cow and 2 cow patch scores. Add 2 cow score increase over 1 cow to list, along with 1 cows. Then each value in the array represents using one cow. Simply sort and take first n.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/cp/insights/">
   <meta property="og:site_name" content="A Collection of Problems">
   <meta property="og:title" content="Insights for Problems">
-  <meta property="og:description" content="asd">
+  <meta property="og:description" content="Knight’s Moves#Each move reduces manhattan distance to finish, so process dp in order of decreasing manhattan.
+Anya and Cubes#Meet in the middle with 0/1/2 bitmask-style in $O(n^{3/2})$.
+Lifeguards#Maintain a set of active lifeguards and linesweep.
+Minimum Coverage#Linesweep and greedily take whatever ends the latest, while starting before the current segment ends.
+Closest Cow Wins#Split into segments between enemy cows. Then it is always possible to place 1 or 2 cows to claim everything in an interval. Find for each interval, the maximum 1 cow and 2 cow patch scores. Add 2 cow score increase over 1 cow to list, along with 1 cows. Then each value in the array represents using one cow. Simply sort and take first n.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -19,7 +47,7 @@
 <link rel="canonical" href="http://localhost:1313/docs/cp/insights/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.fcaeddadc9962c52f81d69dbf2ad83db1c1ef20b9cde5d1905997cd2939eff5e.js" integrity="sha256-/K7drcmWLFL4HWnb8q2D2xwe8guc3l0ZBZl80pOe/14=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.6d8d7509a8dfa6dfb2e7fd88eef499ca4c7eb1be26378ec071567d8e78393b6c.js" integrity="sha256-bY11Cajfpt&#43;y5/2I7vSZykx&#43;sb4mN47AcVZ9jng5O2w=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -85,7 +113,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>AP Calculus</span>
+    <span>AP Notes</span>
   
 
           
@@ -98,38 +126,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/ap-calculus/notes/" class="">Notes</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <span>Polynomials</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/polynomials/crafting-polynomials/" class="">Crafting Polynomials</a>
+    <a href="/docs/ap/calc/" class="">Notes</a>
   
 
         </li>
@@ -142,100 +139,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/polynomials/misc/" class="">Misc</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <span>Counting</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/counting/pie/" class="">Principle of Inclusion-Exclusion</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <span>Inequalities</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/inequalities/amgm-cauchy/" class="">AM-GM and Cauchy Schwarz</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <span>Trigonometry</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/trigonometry/formulas/" class="">Formulas</a>
+    <a href="/docs/ap/psy/" class="">Psychology Cheat Sheet</a>
   
 
         </li>
@@ -297,24 +201,11 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>Programming</span>
+    <a href="/docs/cp/" class="">Programming</a>
   
 
           
   <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/cp/template/" class="">C&#43;&#43; Template</a>
-  
-
-        </li>
-      
     
       
         <li>
@@ -414,7 +305,35 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#knights-moveshttpscodeforcescomgroupjtu6d2hveicontest533280problemf"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533280/problem/F">Knight&rsquo;s Moves</a></a></li>
+        <li><a href="#anya-and-cubeshttpscodeforcescomgroupjtu6d2hveicontest533251problemh"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/H">Anya and Cubes</a></a></li>
+        <li><a href="#lifeguardshttpscodeforcescomgroupjtu6d2hveicontest533251problemp"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/P">Lifeguards</a></a></li>
+        <li><a href="#minimum-coveragehttpscodeforcescomgroupjtu6d2hveicontest533248problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533248/problem/G">Minimum Coverage</a></a></li>
+        <li><a href="#closest-cow-winshttpscodeforcescomgroupjtu6d2hveicontest533249problemf"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/F">Closest Cow Wins</a></a></li>
+        <li><a href="#alice-and-appleshttpscodeforcescomgroupjtu6d2hveicontest533371problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533371/problem/G">Alice and Apples</a></a></li>
+        <li><a href="#elves-and-reindeerhttpscodeforcescomgroupjtu6d2hveicontest533249problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/G">Elves and Reindeer</a></a></li>
+        <li><a href="#restructing-companyhttpscodeforcescomgroupjtu6d2hveicontest533282problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533282/problem/G">Restructing Company</a></a></li>
+        <li><a href="#remove-the-endshttpscodeforcescomcontest2064problemc"><a href="https://codeforces.com/contest/2064/problem/C">Remove the Ends</a></a></li>
+        <li><a href="#good-tripletshttpsdmojcaproblemccc22s4"><a href="https://dmoj.ca/problem/ccc22s4">Good Triplets</a></a></li>
+        <li><a href="#pick-ithttpsdmojcaproblempickit"><a href="https://dmoj.ca/problem/pickit">Pick It</a></a></li>
+        <li><a href="#balanced-treeshttpsdmojcaproblemccc18s4"><a href="https://dmoj.ca/problem/ccc18s4">Balanced Trees</a></a></li>
+        <li><a href="#convex-hullhttpsdmojcaproblemccc15s4"><a href="https://dmoj.ca/problem/ccc15s4">Convex Hull</a></a></li>
+        <li><a href="#ivanahttpsdmojcaproblemcoci06c5p5"><a href="https://dmoj.ca/problem/coci06c5p5">Ivana</a></a></li>
+        <li><a href="#daily-commutehttpsdmojcaproblemccc21s4"><a href="https://dmoj.ca/problem/ccc21s4">Daily Commute</a></a></li>
+        <li><a href="#swapping-seatshttpsdmojcaproblemccc20s4"><a href="https://dmoj.ca/problem/ccc20s4">Swapping Seats</a></a></li>
+        <li><a href="#palindromic-posterhttpsdmojcaproblemccc23s3"><a href="https://dmoj.ca/problem/ccc23s3">Palindromic Poster</a></a></li>
+        <li><a href="#matching-problemhttpsdmojcaproblemhkccc15s2"><a href="https://dmoj.ca/problem/hkccc15s2">Matching Problem</a></a></li>
+        <li><a href="#swipehttpsdmojcaproblemccc24s3"><a href="https://dmoj.ca/problem/ccc24s3">Swipe</a></a></li>
+        <li><a href="#koala-balloonshttpsdmojcaproblemaac2p3"><a href="https://dmoj.ca/problem/aac2p3">Koala Balloons</a></a></li>
+        <li><a href="#flowers-dpqhttpsdmojcaproblemdpq"><a href="https://dmoj.ca/problem/dpq">Flowers DPQ</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -425,7 +344,111 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><p>asd</p>
+  <article class="markdown book-article"><h3 id="knights-moveshttpscodeforcescomgroupjtu6d2hveicontest533280problemf">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533280/problem/F">Knight&rsquo;s Moves</a>
+  <a class="anchor" href="#knights-moveshttpscodeforcescomgroupjtu6d2hveicontest533280problemf">#</a>
+</h3>
+<p>Each move reduces manhattan distance to finish, so process dp in order of decreasing manhattan.</p>
+<h3 id="anya-and-cubeshttpscodeforcescomgroupjtu6d2hveicontest533251problemh">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/H">Anya and Cubes</a>
+  <a class="anchor" href="#anya-and-cubeshttpscodeforcescomgroupjtu6d2hveicontest533251problemh">#</a>
+</h3>
+<p>Meet in the middle with 0/1/2 bitmask-style in $O(n^{3/2})$.</p>
+<h3 id="lifeguardshttpscodeforcescomgroupjtu6d2hveicontest533251problemp">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/P">Lifeguards</a>
+  <a class="anchor" href="#lifeguardshttpscodeforcescomgroupjtu6d2hveicontest533251problemp">#</a>
+</h3>
+<p>Maintain a set of active lifeguards and linesweep.</p>
+<h3 id="minimum-coveragehttpscodeforcescomgroupjtu6d2hveicontest533248problemg">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533248/problem/G">Minimum Coverage</a>
+  <a class="anchor" href="#minimum-coveragehttpscodeforcescomgroupjtu6d2hveicontest533248problemg">#</a>
+</h3>
+<p>Linesweep and greedily take whatever ends the latest, while starting before the current segment ends.</p>
+<h3 id="closest-cow-winshttpscodeforcescomgroupjtu6d2hveicontest533249problemf">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/F">Closest Cow Wins</a>
+  <a class="anchor" href="#closest-cow-winshttpscodeforcescomgroupjtu6d2hveicontest533249problemf">#</a>
+</h3>
+<p>Split into segments between enemy cows. Then it is always possible to place 1 or 2 cows to claim everything in an interval. Find for each interval, the maximum 1 cow and 2 cow patch scores. Add 2 cow score increase over 1 cow to list, along with 1 cows. Then each value in the array represents using one cow. Simply sort and take first n.</p>
+<h3 id="alice-and-appleshttpscodeforcescomgroupjtu6d2hveicontest533371problemg">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533371/problem/G">Alice and Apples</a>
+  <a class="anchor" href="#alice-and-appleshttpscodeforcescomgroupjtu6d2hveicontest533371problemg">#</a>
+</h3>
+<p>Sort into gaining and losing apples. Sort gaining by increasing $a$, and losing by decreasing $b$. We prove optimality with an exchange argument for two apples.</p>
+<h3 id="elves-and-reindeerhttpscodeforcescomgroupjtu6d2hveicontest533249problemg">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/G">Elves and Reindeer</a>
+  <a class="anchor" href="#elves-and-reindeerhttpscodeforcescomgroupjtu6d2hveicontest533249problemg">#</a>
+</h3>
+<p>Hard. Binaryu search exchange</p>
+<h3 id="restructing-companyhttpscodeforcescomgroupjtu6d2hveicontest533282problemg">
+  <a href="https://codeforces.com/group/jtU6D2hVEi/contest/533282/problem/G">Restructing Company</a>
+  <a class="anchor" href="#restructing-companyhttpscodeforcescomgroupjtu6d2hveicontest533282problemg">#</a>
+</h3>
+<p>Since range unite is continuous, keep track of the last unmerged to the right for each index. Then if we have to range unite, just skip to next unmerged.</p>
+<h3 id="remove-the-endshttpscodeforcescomcontest2064problemc">
+  <a href="https://codeforces.com/contest/2064/problem/C">Remove the Ends</a>
+  <a class="anchor" href="#remove-the-endshttpscodeforcescomcontest2064problemc">#</a>
+</h3>
+<p>Take prefix and suffix sums of positive and negative, because we will always take some prefix of positive from the left and some suffix of negative from the right (wipes it out kinda like swipe) so linear check for maximum.</p>
+<hr>
+<h3 id="good-tripletshttpsdmojcaproblemccc22s4">
+  <a href="https://dmoj.ca/problem/ccc22s4">Good Triplets</a>
+  <a class="anchor" href="#good-tripletshttpsdmojcaproblemccc22s4">#</a>
+</h3>
+<p>For each point, let c be the number of points that are on the next &ldquo;half&rdquo; of the circle. Then any triangle formed from these points will not include the origin. We can sum cases for 1/2/3 points from the current spot. These cases are independent and will not overcount as other starting points cannot possible include three points that are all not starting from that spot. However, we do doublecount the diameters, so if the circumference is even then we need to add back half the subtracted degenerate diameters.</p>
+<h3 id="pick-ithttpsdmojcaproblempickit">
+  <a href="https://dmoj.ca/problem/pickit">Pick It</a>
+  <a class="anchor" href="#pick-ithttpsdmojcaproblempickit">#</a>
+</h3>
+<p>Range dp, state is max score from l to r, for each balloon in l to r we take it as the last one to be popped. so then we can combine left and right for proper transition.</p>
+<h3 id="balanced-treeshttpsdmojcaproblemccc18s4">
+  <a href="https://dmoj.ca/problem/ccc18s4">Balanced Trees</a>
+  <a class="anchor" href="#balanced-treeshttpsdmojcaproblemccc18s4">#</a>
+</h3>
+<p>Math/skipping trick - write floor as an inequality statement, then rearrange to get range of i such that the subtrees are of weight v. The inequality also says i &lt;= w//v, so the next i that changes the subtree weight should be w // v + 1.</p>
+<h3 id="convex-hullhttpsdmojcaproblemccc15s4">
+  <a href="https://dmoj.ca/problem/ccc15s4">Convex Hull</a>
+  <a class="anchor" href="#convex-hullhttpsdmojcaproblemccc15s4">#</a>
+</h3>
+<p>2D dijkstras, for each island keep minimum time, as well as minimum hull wear for that time</p>
+<h3 id="ivanahttpsdmojcaproblemcoci06c5p5">
+  <a href="https://dmoj.ca/problem/coci06c5p5">Ivana</a>
+  <a class="anchor" href="#ivanahttpsdmojcaproblemcoci06c5p5">#</a>
+</h3>
+<p>Circle = array * 2 + interval recursive dp, not too hard</p>
+<h3 id="daily-commutehttpsdmojcaproblemccc21s4">
+  <a href="https://dmoj.ca/problem/ccc21s4">Daily Commute</a>
+  <a class="anchor" href="#daily-commutehttpsdmojcaproblemccc21s4">#</a>
+</h3>
+<p>You always take the train for some prefix of your journey.</p>
+<h3 id="swapping-seatshttpsdmojcaproblemccc20s4">
+  <a href="https://dmoj.ca/problem/ccc20s4">Swapping Seats</a>
+  <a class="anchor" href="#swapping-seatshttpsdmojcaproblemccc20s4">#</a>
+</h3>
+<p>Another circle = array * 2, check every possible start point for section A, and realize that sorting A and B means C is done.</p>
+<h3 id="palindromic-posterhttpsdmojcaproblemccc23s3">
+  <a href="https://dmoj.ca/problem/ccc23s3">Palindromic Poster</a>
+  <a class="anchor" href="#palindromic-posterhttpsdmojcaproblemccc23s3">#</a>
+</h3>
+<p>%.</p>
+<h3 id="matching-problemhttpsdmojcaproblemhkccc15s2">
+  <a href="https://dmoj.ca/problem/hkccc15s2">Matching Problem</a>
+  <a class="anchor" href="#matching-problemhttpsdmojcaproblemhkccc15s2">#</a>
+</h3>
+<h3 id="swipehttpsdmojcaproblemccc24s3">
+  <a href="https://dmoj.ca/problem/ccc24s3">Swipe</a>
+  <a class="anchor" href="#swipehttpsdmojcaproblemccc24s3">#</a>
+</h3>
+<p>For each block of values in the target, get the source of the swipe.</p>
+<h3 id="koala-balloonshttpsdmojcaproblemaac2p3">
+  <a href="https://dmoj.ca/problem/aac2p3">Koala Balloons</a>
+  <a class="anchor" href="#koala-balloonshttpsdmojcaproblemaac2p3">#</a>
+</h3>
+<p>Use PSA to check if blocked, as well as binary searching on maximum number of balloons.</p>
+<h3 id="flowers-dpqhttpsdmojcaproblemdpq">
+  <a href="https://dmoj.ca/problem/dpq">Flowers DPQ</a>
+  <a class="anchor" href="#flowers-dpqhttpsdmojcaproblemdpq">#</a>
+</h3>
+<p>BIT to optimize transition to logn with 1. get maximum from 0 to h and 2. update maximum of height h (propogates to all higher heights)</p>
 </article>
  
       
@@ -465,7 +488,35 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#knights-moveshttpscodeforcescomgroupjtu6d2hveicontest533280problemf"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533280/problem/F">Knight&rsquo;s Moves</a></a></li>
+        <li><a href="#anya-and-cubeshttpscodeforcescomgroupjtu6d2hveicontest533251problemh"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/H">Anya and Cubes</a></a></li>
+        <li><a href="#lifeguardshttpscodeforcescomgroupjtu6d2hveicontest533251problemp"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/P">Lifeguards</a></a></li>
+        <li><a href="#minimum-coveragehttpscodeforcescomgroupjtu6d2hveicontest533248problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533248/problem/G">Minimum Coverage</a></a></li>
+        <li><a href="#closest-cow-winshttpscodeforcescomgroupjtu6d2hveicontest533249problemf"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/F">Closest Cow Wins</a></a></li>
+        <li><a href="#alice-and-appleshttpscodeforcescomgroupjtu6d2hveicontest533371problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533371/problem/G">Alice and Apples</a></a></li>
+        <li><a href="#elves-and-reindeerhttpscodeforcescomgroupjtu6d2hveicontest533249problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/G">Elves and Reindeer</a></a></li>
+        <li><a href="#restructing-companyhttpscodeforcescomgroupjtu6d2hveicontest533282problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533282/problem/G">Restructing Company</a></a></li>
+        <li><a href="#remove-the-endshttpscodeforcescomcontest2064problemc"><a href="https://codeforces.com/contest/2064/problem/C">Remove the Ends</a></a></li>
+        <li><a href="#good-tripletshttpsdmojcaproblemccc22s4"><a href="https://dmoj.ca/problem/ccc22s4">Good Triplets</a></a></li>
+        <li><a href="#pick-ithttpsdmojcaproblempickit"><a href="https://dmoj.ca/problem/pickit">Pick It</a></a></li>
+        <li><a href="#balanced-treeshttpsdmojcaproblemccc18s4"><a href="https://dmoj.ca/problem/ccc18s4">Balanced Trees</a></a></li>
+        <li><a href="#convex-hullhttpsdmojcaproblemccc15s4"><a href="https://dmoj.ca/problem/ccc15s4">Convex Hull</a></a></li>
+        <li><a href="#ivanahttpsdmojcaproblemcoci06c5p5"><a href="https://dmoj.ca/problem/coci06c5p5">Ivana</a></a></li>
+        <li><a href="#daily-commutehttpsdmojcaproblemccc21s4"><a href="https://dmoj.ca/problem/ccc21s4">Daily Commute</a></a></li>
+        <li><a href="#swapping-seatshttpsdmojcaproblemccc20s4"><a href="https://dmoj.ca/problem/ccc20s4">Swapping Seats</a></a></li>
+        <li><a href="#palindromic-posterhttpsdmojcaproblemccc23s3"><a href="https://dmoj.ca/problem/ccc23s3">Palindromic Poster</a></a></li>
+        <li><a href="#matching-problemhttpsdmojcaproblemhkccc15s2"><a href="https://dmoj.ca/problem/hkccc15s2">Matching Problem</a></a></li>
+        <li><a href="#swipehttpsdmojcaproblemccc24s3"><a href="https://dmoj.ca/problem/ccc24s3">Swipe</a></a></li>
+        <li><a href="#koala-balloonshttpsdmojcaproblemaac2p3"><a href="https://dmoj.ca/problem/aac2p3">Koala Balloons</a></a></li>
+        <li><a href="#flowers-dpqhttpsdmojcaproblemdpq"><a href="https://dmoj.ca/problem/dpq">Flowers DPQ</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
  
