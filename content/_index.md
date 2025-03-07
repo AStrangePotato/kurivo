@@ -109,6 +109,31 @@ conflate - combine
 
 demarcated - set boundaries, limits / seperate, distinguish
 
+recant - say that one no longer holds a belief or opinion
+
+nominally - in name only, but not perhaps in reality
+
+pragmatic - dealing with things in a realistic and practical way, matter of fact
+
+exulted - feel or show triumphant jubilation, elation
+
+latent - hidden, concealed, inactive
+
+operative - operable, functioning
+
+lauded - highly praised and admired
+
+sanguine - optimistic, especially in a bad situation
+
+recalcitrant - stubborunly uncooperative with authority or disclipine
+
+obstinate - stubborn
+
+misanthropic - disliking humankind
+
+earnest - showing sincere and intense opinion
+
+
 
 ### Sat Mistakes
 
