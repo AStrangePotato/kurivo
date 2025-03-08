@@ -8,8 +8,18 @@
 - [Competitive Programming](./docs/cp/insights/)
 
 
+most important
+
+when subject verb agreement cancel out the unnecessary
+remember to identify the subject
+read it carefull and dont choose half right
+most correct not could be correct
+just mark as review and come back
+watch transitions
 
 Random SAT vocab
+
+[Quizlet](https://quizlet.com/ca/1015514699/vocabulary-list-with-definitions-and-meanings-flash-cards/)
 
 ambivalence - the state of having mixed feelings or contradictory ideas about something or someone
 
@@ -39,7 +49,7 @@ endow - provide with a quality, ability or asset
 
 lest - for fear that
 
-conceit - excessive pride in oneself
+conceit - excessive pride in oneself, vanity
 
 sequestered - isolated, hidden away
 
@@ -133,6 +143,39 @@ misanthropic - disliking humankind
 
 earnest - showing sincere and intense opinion
 
+supervene - occur later than intended, typically in a way that changes the situation
+
+transient - lasting a short time
+
+recourse - a source of help in a difficult situation
+
+sullied - damage the purity of
+
+pretence - an act, claim that is false or ambitious
+
+litany - a tedious recital of repetitive events
+
+cavalier - showing a lack of proper concern
+
+dulcet - of a sound, especially pleasing
+
+edifice - a large, imposing building
+
+epitomy - a perfect ideal example
+
+equanimity - composure and calmness in a difficult situation
+
+languish - waste away, grow weak
+
+reprise - repeated passage in music
+
+surmise - suppose true without evidence
+
+subsist - persist
+
+antecedent - sequentially before
+
+impending - sequentially after
 
 
 ### Sat Mistakes
@@ -195,3 +238,45 @@ D.
 It is a remarkable story that happened to an unremarkable person, though one could plausibly argue that because the story is valuable, some of its value accrues to the person at its center.
 
 You selected answer B. The correct answer is D.
+
+
+
+---
+That the geographic center of North America lay in the state of North Dakota was conceded by all ______blank establishing its precise coordinates proved more divisive.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A.
+involved:
+
+B.
+involved,
+
+C.
+involved
+
+D.
+involved;
+
+You selected answer B. The correct answer is D.
+
+
+
+---
+For its 1974 work Instant Mural, the Chicano art collective Asco taped members Patssi Valdez and Humberto Sandoval to an outdoor wall in East Los Angeles. The work is manifestly a commentary on constraint, but many critics focus on Valdez and the social constraints women faced at the time, which is understandable but leaves the presence of Valdez’s male collaborator Sandoval unexplained. We should instead consider that in 1974, the art establishment’s recognition of Chicano artists was (and had long been) restricted to sociohistorical muralists, leaving nonmuralist Chicano artists—like Asco’s members—struggling to even exhibit their work; attending to this context opens an interpretation that accounts for all the evidence, allowing us to conclude that ______blank
+
+Which choice most logically completes the text?
+
+A.
+while Valdez’s presence in Instant Mural represents the social constraints placed on women at the time, Sandoval’s presence represents Chicano muralists’ frustration at their lack of recognition by the art establishment.
+
+B.
+the main subject of Instant Mural is female Chicano artists’ experience of being doubly constrained by gender-role expectations and the marginalization of certain types of art.
+
+C.
+Instant Mural is a reflection on the constraining aesthetic expectations placed on Chicano artists in general rather than on the social constraints placed on women specifically.
+
+D.
+Instant Mural is best understood not as a critique of the social constraints placed on women but rather as a critique of sociohistorical muralists’ depictions of Chicano culture.
+
+You selected answer A. The correct answer is C.
