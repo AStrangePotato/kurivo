@@ -92,4 +92,9 @@ Use PSA to check if blocked, as well as binary searching on maximum number of ba
 
 BIT to optimize transition to logn with 1. get maximum from 0 to h and 2. update maximum of height h (propogates to all higher heights)
 
+### [An FFT Problem](https://dmoj.ca/problem/bts18p5)
+
+DP in order of values to avoid overcounting, and process subset products backwards to avoid overwriting dp values.
+
+
 
