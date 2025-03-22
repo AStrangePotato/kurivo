@@ -119,7 +119,7 @@ conflate - combine
 
 demarcated - set boundaries, limits / seperate, distinguish
 
-recant - say that one no longer holds a belief or opinion
+recant - say that one no longer holds a belief or opinion   
 
 nominally - in name only, but not perhaps in reality
 
@@ -143,6 +143,7 @@ misanthropic - disliking humankind
 
 earnest - showing sincere and intense opinion
 
+veracity - conformant to facts, accurate
 supervene - occur later than intended, typically in a way that changes the situation
 
 transient - lasting a short time

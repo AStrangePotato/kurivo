@@ -23,6 +23,59 @@ int main() {
         solve();
     }
 }
+struct Node {
+    ll pre, tot;
+};
+
+Node tree[1000000];
+ll arr[200005];
+
+
+void recalculate(int node) {
+    Node left = tree[2 * node &#43; 1];
+    Node right = tree[2 * node &#43; 2];
+    //code here
+}
+
+void constructTree(int node, int left, int right) {
+    if (left == right) {
+        tree[node] = {arr[left], arr[left]};
+    }
+    else {
+        int middle = (left &#43; right) / 2;
+        constructTree(node * 2 &#43; 1, left, middle);
+        constructTree(node * 2 &#43; 2, middle &#43; 1, right);
+        recalculate(node);
+    }
+}
+
+Node query(int node, int qlow, int qhigh, int left, int right) {
+    if (qlow &gt; right || qhigh &lt; left) {
+        return {INT_MIN, 0}; // no overlap
+    }
+
+    if (qlow &lt;= left &amp;&amp; qhigh &gt;= right) {
+        return tree[node]; // total overlap
+    }
+
+    // partial overlap
+    int middle = (left &#43; right) / 2;
+    Node l = query(node * 2 &#43; 1, qlow, qhigh, left, middle);
+    Node r = query(node * 2 &#43; 2, qlow, qhigh, middle &#43; 1, right);
+    return {max(l.pre, l.tot&#43;r.pre), l.tot&#43;r.tot};
+}
+
+void update(int node, int left, int right, int index, ll value) {
+    if (left == right) {
+        tree[node] = {value, value};
+    }
+    else {
+        int middle = (left &#43; right) / 2;
+        if (index &lt;= middle) update(node * 2 &#43; 1, left, middle, index, value); // update left branch
+        else update(node * 2 &#43; 2, middle &#43; 1, right, index, value);
+        recalculate(node);
+    }
+}
 
   DP checklist
   #
@@ -31,19 +84,13 @@ int main() {
 
 Identify Overlapping Subproblems
 Look for a recursive structure where subproblems repeat.
-Think: &ldquo;Can I break this problem into smaller versions of itself?&rdquo;
-
-
-Define the State
-Clearly define dp[i] (or dp[i][j] in 2D cases) in words.
-Ensure it fully captures the problem’s essential information at step i.">
+Think: &ldquo;Can I break this problem into smaller versions of itself?&rdquo;">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/cp/">
   <meta property="og:site_name" content="A Collection of Problems">
   <meta property="og:title" content="Programming">
-  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } DP checklist#Identify Overlapping Subproblems Look for a recursive structure where subproblems repeat. Think: “Can I break this problem into smaller versions of itself?”
-Define the State Clearly define dp[i] (or dp[i][j] in 2D cases) in words. Ensure it fully captures the problem’s essential information at step i.">
+  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt; using namespace std; void solve() { } int main() { ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); int t; cin &gt;&gt; t; while (t--) { solve(); } } struct Node { ll pre, tot; }; Node tree[1000000]; ll arr[200005]; void recalculate(int node) { Node left = tree[2 * node &#43; 1]; Node right = tree[2 * node &#43; 2]; //code here } void constructTree(int node, int left, int right) { if (left == right) { tree[node] = {arr[left], arr[left]}; } else { int middle = (left &#43; right) / 2; constructTree(node * 2 &#43; 1, left, middle); constructTree(node * 2 &#43; 2, middle &#43; 1, right); recalculate(node); } } Node query(int node, int qlow, int qhigh, int left, int right) { if (qlow &gt; right || qhigh &lt; left) { return {INT_MIN, 0}; // no overlap } if (qlow &lt;= left &amp;&amp; qhigh &gt;= right) { return tree[node]; // total overlap } // partial overlap int middle = (left &#43; right) / 2; Node l = query(node * 2 &#43; 1, qlow, qhigh, left, middle); Node r = query(node * 2 &#43; 2, qlow, qhigh, middle &#43; 1, right); return {max(l.pre, l.tot&#43;r.pre), l.tot&#43;r.tot}; } void update(int node, int left, int right, int index, ll value) { if (left == right) { tree[node] = {value, value}; } else { int middle = (left &#43; right) / 2; if (index &lt;= middle) update(node * 2 &#43; 1, left, middle, index, value); // update left branch else update(node * 2 &#43; 2, middle &#43; 1, right, index, value); recalculate(node); } } DP checklist#Identify Overlapping Subproblems Look for a recursive structure where subproblems repeat. Think: “Can I break this problem into smaller versions of itself?”">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <title>Programming | A Collection of Problems</title>
@@ -52,7 +99,7 @@ Define the State Clearly define dp[i] (or dp[i][j] in 2D cases) in words. Ensure
 <link rel="canonical" href="http://localhost:1313/docs/cp/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.6d8d7509a8dfa6dfb2e7fd88eef499ca4c7eb1be26378ec071567d8e78393b6c.js" integrity="sha256-bY11Cajfpt&#43;y5/2I7vSZykx&#43;sb4mN47AcVZ9jng5O2w=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.9fe96e9be471b5b8323d7e7ca232666e27a5adbb4b2684e18c6d80ec0e4e0651.js" integrity="sha256-n&#43;lum&#43;RxtbgyPX58ojJmbielrbtLJoThjG2A7A5OBlE=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/cp/index.xml" title="A Collection of Problems" />
 <!--
 Made with Book Theme
@@ -345,6 +392,59 @@ int main() {
     int t; cin &gt;&gt; t;
     while (t--) {
         solve();
+    }
+}
+</code></pre><pre tabindex="0"><code>struct Node {
+    ll pre, tot;
+};
+
+Node tree[1000000];
+ll arr[200005];
+
+
+void recalculate(int node) {
+    Node left = tree[2 * node + 1];
+    Node right = tree[2 * node + 2];
+    //code here
+}
+
+void constructTree(int node, int left, int right) {
+    if (left == right) {
+        tree[node] = {arr[left], arr[left]};
+    }
+    else {
+        int middle = (left + right) / 2;
+        constructTree(node * 2 + 1, left, middle);
+        constructTree(node * 2 + 2, middle + 1, right);
+        recalculate(node);
+    }
+}
+
+Node query(int node, int qlow, int qhigh, int left, int right) {
+    if (qlow &gt; right || qhigh &lt; left) {
+        return {INT_MIN, 0}; // no overlap
+    }
+
+    if (qlow &lt;= left &amp;&amp; qhigh &gt;= right) {
+        return tree[node]; // total overlap
+    }
+
+    // partial overlap
+    int middle = (left + right) / 2;
+    Node l = query(node * 2 + 1, qlow, qhigh, left, middle);
+    Node r = query(node * 2 + 2, qlow, qhigh, middle + 1, right);
+    return {max(l.pre, l.tot+r.pre), l.tot+r.tot};
+}
+
+void update(int node, int left, int right, int index, ll value) {
+    if (left == right) {
+        tree[node] = {value, value};
+    }
+    else {
+        int middle = (left + right) / 2;
+        if (index &lt;= middle) update(node * 2 + 1, left, middle, index, value); // update left branch
+        else update(node * 2 + 2, middle + 1, right, index, value);
+        recalculate(node);
     }
 }
 </code></pre><h2 id="dp-checklist">

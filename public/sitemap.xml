@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/ap-calculus/</loc>
+    <loc>http://localhost:1313/docs/ap/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/masteringamc/checklist/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/cp/insights/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/ap-calculus/notes/</loc>
+    <loc>http://localhost:1313/docs/ap/calc/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/ap-calculus/psy/</loc>
+    <loc>http://localhost:1313/docs/ap/psy/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/masteringamc/wrong-questions/</loc>
   </url><url>

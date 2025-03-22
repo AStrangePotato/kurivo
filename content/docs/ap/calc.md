@@ -195,12 +195,6 @@ Disk / Washer method: for finding volume by rotation
 
 Arc length: take hypotenuses of many little right triangles of width dx and height dy, get $\int \sqrt{1+(\frac{dy}{dx})^2}dx$
 
-### Good Problem for FTC 
-
-Let $f$ be a differentiable function such that $f(2) = 1$ and $f'(x) = \sin(x^2 - 5).$
-
-What is the value of $f(6)$?
-
 
 ## Unit 9: Parametric equations, polar coordinates, and vector-valued functions
 
@@ -249,9 +243,14 @@ An geometric sum can be converted back to an infinite series if it's in the appr
 function -> geo series
 series -> function
 
-interval of convergence (radius is half the interval)
+interval of convergence (radius is half the interval), make sure to check endpoints
 
 match the constant
 
-basically find a power series to aprpoximate function
+basically find a power series to approximate function
 
+The Maclaurin series expansions for the common functions are:
+
+$$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \dots$$
+$$\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots$$
+$$e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \dots$$

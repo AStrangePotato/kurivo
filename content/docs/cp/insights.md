@@ -39,7 +39,9 @@ Since range unite is continuous, keep track of the last unmerged to the right fo
 
 Take prefix and suffix sums of positive and negative, because we will always take some prefix of positive from the left and some suffix of negative from the right (wipes it out kinda like swipe) so linear check for maximum.
 
+### [Two Colors](https://codeforces.com/contest/2075/problem/C)
 
+Loop over k, where the fence is painted 1 to k, k+1 to n. Subtract double counted colors that are sufficient to paint both ends.
 
 
 ---

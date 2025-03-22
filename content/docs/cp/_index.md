@@ -23,6 +23,63 @@ int main() {
 }
 ```
 
+```
+struct Node {
+    ll pre, tot;
+};
+
+Node tree[1000000];
+ll arr[200005];
+
+
+void recalculate(int node) {
+    Node left = tree[2 * node + 1];
+    Node right = tree[2 * node + 2];
+    //code here
+}
+
+void constructTree(int node, int left, int right) {
+    if (left == right) {
+        tree[node] = {arr[left], arr[left]};
+    }
+    else {
+        int middle = (left + right) / 2;
+        constructTree(node * 2 + 1, left, middle);
+        constructTree(node * 2 + 2, middle + 1, right);
+        recalculate(node);
+    }
+}
+
+Node query(int node, int qlow, int qhigh, int left, int right) {
+    if (qlow > right || qhigh < left) {
+        return {INT_MIN, 0}; // no overlap
+    }
+
+    if (qlow <= left && qhigh >= right) {
+        return tree[node]; // total overlap
+    }
+
+    // partial overlap
+    int middle = (left + right) / 2;
+    Node l = query(node * 2 + 1, qlow, qhigh, left, middle);
+    Node r = query(node * 2 + 2, qlow, qhigh, middle + 1, right);
+    return {max(l.pre, l.tot+r.pre), l.tot+r.tot};
+}
+
+void update(int node, int left, int right, int index, ll value) {
+    if (left == right) {
+        tree[node] = {value, value};
+    }
+    else {
+        int middle = (left + right) / 2;
+        if (index <= middle) update(node * 2 + 1, left, middle, index, value); // update left branch
+        else update(node * 2 + 2, middle + 1, right, index, value);
+        recalculate(node);
+    }
+}
+```
+
+
 ## DP checklist
 1. Identify Overlapping Subproblems
 Look for a recursive structure where subproblems repeat.
