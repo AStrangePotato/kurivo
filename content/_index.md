@@ -4,7 +4,7 @@
 
 ## Quick Links
 
-- [Calculus BC Notes](./docs/ap-calculus/notes/)
+- [Calculus BC Notes](./docs/ap/calc/)
 - [Competitive Programming](./docs/cp/insights/)
 
 
@@ -144,6 +144,7 @@ misanthropic - disliking humankind
 earnest - showing sincere and intense opinion
 
 veracity - conformant to facts, accurate
+
 supervene - occur later than intended, typically in a way that changes the situation
 
 transient - lasting a short time

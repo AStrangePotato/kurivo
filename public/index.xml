@@ -8,6 +8,13 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Calculus</title>
+      <link>http://localhost:1313/docs/ap/calc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/ap/calc/</guid>
+      <description>&lt;h2 id=&#34;unit-1-limits-and-continuity&#34;&gt;&#xD;&#xA;  Unit 1: Limits and Continuity&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unit-1-limits-and-continuity&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.&lt;/p&gt;&#xA;&lt;p&gt;If the left and right limits approach the same thing, it could be unbounded (tends to $\pm\infty$).&lt;/p&gt;&#xA;&lt;p&gt;If the left and right limits do not approach the same thing, then the limit does not exist.&lt;/p&gt;&#xA;&lt;p&gt;A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Checklist</title>
       <link>http://localhost:1313/docs/masteringamc/checklist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,13 +27,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/cp/insights/</guid>
       <description>&lt;h3 id=&#34;knights-moveshttpscodeforcescomgroupjtu6d2hveicontest533280problemf&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;https://codeforces.com/group/jtU6D2hVEi/contest/533280/problem/F&#34;&gt;Knight&amp;rsquo;s Moves&lt;/a&gt;&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#knights-moveshttpscodeforcescomgroupjtu6d2hveicontest533280problemf&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Each move reduces manhattan distance to finish, so process dp in order of decreasing manhattan.&lt;/p&gt;&#xA;&lt;h3 id=&#34;anya-and-cubeshttpscodeforcescomgroupjtu6d2hveicontest533251problemh&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/H&#34;&gt;Anya and Cubes&lt;/a&gt;&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#anya-and-cubeshttpscodeforcescomgroupjtu6d2hveicontest533251problemh&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Meet in the middle with 0/1/2 bitmask-style in $O(n^{3/2})$.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lifeguardshttpscodeforcescomgroupjtu6d2hveicontest533251problemp&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;https://codeforces.com/group/jtU6D2hVEi/contest/533251/problem/P&#34;&gt;Lifeguards&lt;/a&gt;&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#lifeguardshttpscodeforcescomgroupjtu6d2hveicontest533251problemp&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Maintain a set of active lifeguards and linesweep.&lt;/p&gt;&#xA;&lt;h3 id=&#34;minimum-coveragehttpscodeforcescomgroupjtu6d2hveicontest533248problemg&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;https://codeforces.com/group/jtU6D2hVEi/contest/533248/problem/G&#34;&gt;Minimum Coverage&lt;/a&gt;&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#minimum-coveragehttpscodeforcescomgroupjtu6d2hveicontest533248problemg&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Linesweep and greedily take whatever ends the latest, while starting before the current segment ends.&lt;/p&gt;&#xA;&lt;h3 id=&#34;closest-cow-winshttpscodeforcescomgroupjtu6d2hveicontest533249problemf&#34;&gt;&#xD;&#xA;  &lt;a href=&#34;https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/F&#34;&gt;Closest Cow Wins&lt;/a&gt;&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#closest-cow-winshttpscodeforcescomgroupjtu6d2hveicontest533249problemf&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Split into segments between enemy cows. Then it is always possible to place 1 or 2 cows to claim everything in an interval. Find for each interval, the maximum 1 cow and 2 cow patch scores. Add 2 cow score increase over 1 cow to list, along with 1 cows. Then each value in the array represents using one cow. Simply sort and take first n.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Notes</title>
-      <link>http://localhost:1313/docs/ap/calc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/ap/calc/</guid>
-      <description>&lt;h2 id=&#34;unit-1-limits-and-continuity&#34;&gt;&#xD;&#xA;  Unit 1: Limits and Continuity&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unit-1-limits-and-continuity&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;The limit $\lim_{x \to a} f(a)$ exists if the limit from the left is the same as the limit from the right.&lt;/p&gt;&#xA;&lt;p&gt;If the left and right limits approach the same thing, it could be unbounded (tends to $\pm\infty$).&lt;/p&gt;&#xA;&lt;p&gt;If the left and right limits do not approach the same thing, then the limit does not exist.&lt;/p&gt;&#xA;&lt;p&gt;A function is continuous at $a \iff \lim_{x \to a} f(x) = f(a)$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Psychology Cheat Sheet</title>

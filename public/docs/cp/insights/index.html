@@ -47,7 +47,7 @@ Closest Cow Wins#Split into segments between enemy cows. Then it is always pos
 <link rel="canonical" href="http://localhost:1313/docs/cp/insights/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.9fe96e9be471b5b8323d7e7ca232666e27a5adbb4b2684e18c6d80ec0e4e0651.js" integrity="sha256-n&#43;lum&#43;RxtbgyPX58ojJmbielrbtLJoThjG2A7A5OBlE=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.e199e7f0ee4f1094ad5614924e1a098ef40d6b6d2fd00d2f145a50846e855c3c.js" integrity="sha256-4Znn8O5PEJStVhSSThoJjvQNa20v0A0vFFpQhG6FXDw=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -318,6 +318,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#elves-and-reindeerhttpscodeforcescomgroupjtu6d2hveicontest533249problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/G">Elves and Reindeer</a></a></li>
         <li><a href="#restructing-companyhttpscodeforcescomgroupjtu6d2hveicontest533282problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533282/problem/G">Restructing Company</a></a></li>
         <li><a href="#remove-the-endshttpscodeforcescomcontest2064problemc"><a href="https://codeforces.com/contest/2064/problem/C">Remove the Ends</a></a></li>
+        <li><a href="#two-colorshttpscodeforcescomcontest2075problemc"><a href="https://codeforces.com/contest/2075/problem/C">Two Colors</a></a></li>
         <li><a href="#good-tripletshttpsdmojcaproblemccc22s4"><a href="https://dmoj.ca/problem/ccc22s4">Good Triplets</a></a></li>
         <li><a href="#pick-ithttpsdmojcaproblempickit"><a href="https://dmoj.ca/problem/pickit">Pick It</a></a></li>
         <li><a href="#balanced-treeshttpsdmojcaproblemccc18s4"><a href="https://dmoj.ca/problem/ccc18s4">Balanced Trees</a></a></li>
@@ -330,6 +331,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#swipehttpsdmojcaproblemccc24s3"><a href="https://dmoj.ca/problem/ccc24s3">Swipe</a></a></li>
         <li><a href="#koala-balloonshttpsdmojcaproblemaac2p3"><a href="https://dmoj.ca/problem/aac2p3">Koala Balloons</a></a></li>
         <li><a href="#flowers-dpqhttpsdmojcaproblemdpq"><a href="https://dmoj.ca/problem/dpq">Flowers DPQ</a></a></li>
+        <li><a href="#an-fft-problemhttpsdmojcaproblembts18p5"><a href="https://dmoj.ca/problem/bts18p5">An FFT Problem</a></a></li>
       </ul>
     </li>
   </ul>
@@ -389,6 +391,11 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#remove-the-endshttpscodeforcescomcontest2064problemc">#</a>
 </h3>
 <p>Take prefix and suffix sums of positive and negative, because we will always take some prefix of positive from the left and some suffix of negative from the right (wipes it out kinda like swipe) so linear check for maximum.</p>
+<h3 id="two-colorshttpscodeforcescomcontest2075problemc">
+  <a href="https://codeforces.com/contest/2075/problem/C">Two Colors</a>
+  <a class="anchor" href="#two-colorshttpscodeforcescomcontest2075problemc">#</a>
+</h3>
+<p>Loop over k, where the fence is painted 1 to k, k+1 to n. Subtract double counted colors that are sufficient to paint both ends.</p>
 <hr>
 <h3 id="good-tripletshttpsdmojcaproblemccc22s4">
   <a href="https://dmoj.ca/problem/ccc22s4">Good Triplets</a>
@@ -449,6 +456,11 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#flowers-dpqhttpsdmojcaproblemdpq">#</a>
 </h3>
 <p>BIT to optimize transition to logn with 1. get maximum from 0 to h and 2. update maximum of height h (propogates to all higher heights)</p>
+<h3 id="an-fft-problemhttpsdmojcaproblembts18p5">
+  <a href="https://dmoj.ca/problem/bts18p5">An FFT Problem</a>
+  <a class="anchor" href="#an-fft-problemhttpsdmojcaproblembts18p5">#</a>
+</h3>
+<p>DP in order of values to avoid overcounting, and process subset products backwards to avoid overwriting dp values.</p>
 </article>
  
       
@@ -501,6 +513,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#elves-and-reindeerhttpscodeforcescomgroupjtu6d2hveicontest533249problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533249/problem/G">Elves and Reindeer</a></a></li>
         <li><a href="#restructing-companyhttpscodeforcescomgroupjtu6d2hveicontest533282problemg"><a href="https://codeforces.com/group/jtU6D2hVEi/contest/533282/problem/G">Restructing Company</a></a></li>
         <li><a href="#remove-the-endshttpscodeforcescomcontest2064problemc"><a href="https://codeforces.com/contest/2064/problem/C">Remove the Ends</a></a></li>
+        <li><a href="#two-colorshttpscodeforcescomcontest2075problemc"><a href="https://codeforces.com/contest/2075/problem/C">Two Colors</a></a></li>
         <li><a href="#good-tripletshttpsdmojcaproblemccc22s4"><a href="https://dmoj.ca/problem/ccc22s4">Good Triplets</a></a></li>
         <li><a href="#pick-ithttpsdmojcaproblempickit"><a href="https://dmoj.ca/problem/pickit">Pick It</a></a></li>
         <li><a href="#balanced-treeshttpsdmojcaproblemccc18s4"><a href="https://dmoj.ca/problem/ccc18s4">Balanced Trees</a></a></li>
@@ -513,6 +526,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#swipehttpsdmojcaproblemccc24s3"><a href="https://dmoj.ca/problem/ccc24s3">Swipe</a></a></li>
         <li><a href="#koala-balloonshttpsdmojcaproblemaac2p3"><a href="https://dmoj.ca/problem/aac2p3">Koala Balloons</a></a></li>
         <li><a href="#flowers-dpqhttpsdmojcaproblemdpq"><a href="https://dmoj.ca/problem/dpq">Flowers DPQ</a></a></li>
+        <li><a href="#an-fft-problemhttpsdmojcaproblembts18p5"><a href="https://dmoj.ca/problem/bts18p5">An FFT Problem</a></a></li>
       </ul>
     </li>
   </ul>

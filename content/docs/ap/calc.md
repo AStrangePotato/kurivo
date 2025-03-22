@@ -1,5 +1,5 @@
 ---
-title: Notes
+title: Calculus
 weight: 1
 ---
 
@@ -125,6 +125,8 @@ A section is concave upwards if the derivative is increasing over that interval.
 
 For concave upwards, the second derivative is positive. Concave downwards, the second derivative is negative.
 
+Remember: concave **U**p for U
+
 The *possible* inflection points happen when the second derivative is zero or undefined. However, these are just candidates - an actual inflection point must be when the second derviative changes signs. Remember to also check the original function is defined for this candidate point.
 
 ### Optimization
@@ -247,7 +249,7 @@ interval of convergence (radius is half the interval), make sure to check endpoi
 
 match the constant
 
-basically find a power series to approximate function
+basically find a power series to approximate functions
 
 The Maclaurin series expansions for the common functions are:
 
