@@ -24,17 +24,14 @@ int main() {
     }
 }
 struct Node {
-    ll pre, tot;
+
 };
 
 Node tree[1000000];
 ll arr[200005];
 
-
-void recalculate(int node) {
-    Node left = tree[2 * node &#43; 1];
-    Node right = tree[2 * node &#43; 2];
-    //code here
+Node merge(Node l, Node r) {
+    //merge code here
 }
 
 void constructTree(int node, int left, int right) {
@@ -45,35 +42,35 @@ void constructTree(int node, int left, int right) {
         int middle = (left &#43; right) / 2;
         constructTree(node * 2 &#43; 1, left, middle);
         constructTree(node * 2 &#43; 2, middle &#43; 1, right);
-        recalculate(node);
+        tree[node] = merge(tree[node*2 &#43; 1], tree[node*2 &#43; 2]);
     }
 }
 
 Node query(int node, int qlow, int qhigh, int left, int right) {
-    if (qlow &gt; right || qhigh &lt; left) {
-        return {INT_MIN, 0}; // no overlap
-    }
+    if (left == qlow &amp;&amp; right == qhigh) return tree[node];
 
-    if (qlow &lt;= left &amp;&amp; qhigh &gt;= right) {
-        return tree[node]; // total overlap
+    int mid = (left &#43; right) / 1;
+    
+    if (qhigh &lt;= mid) {
+        return query(node * 2 &#43; 1, qlow, qhigh, left, mid); // Fully in left child
+    } else if (qlow &gt; mid) {
+        return query(node * 2 &#43; 2, qlow, qhigh, mid &#43; 1, right); // Fully in right child
+    } else {
+        Node l = query(node * 2 &#43; 1, qlow, mid, left, mid);
+        Node r = query(node * 2 &#43; 2, mid &#43; 1, qhigh, mid &#43; 1, right);
+        return merge(l, r); // Merge left and right results
     }
-
-    // partial overlap
-    int middle = (left &#43; right) / 2;
-    Node l = query(node * 2 &#43; 1, qlow, qhigh, left, middle);
-    Node r = query(node * 2 &#43; 2, qlow, qhigh, middle &#43; 1, right);
-    return {max(l.pre, l.tot&#43;r.pre), l.tot&#43;r.tot};
 }
 
 void update(int node, int left, int right, int index, ll value) {
     if (left == right) {
-        tree[node] = {value, value};
+        tree[node] = // default here
     }
     else {
         int middle = (left &#43; right) / 2;
-        if (index &lt;= middle) update(node * 2 &#43; 1, left, middle, index, value); // update left branch
+        if (index &lt;= middle) update(node * 2 &#43; 1, left, middle, index, value);
         else update(node * 2 &#43; 2, middle &#43; 1, right, index, value);
-        recalculate(node);
+        tree[node] = merge(tree[node*2 &#43; 1], tree[node*2 &#43; 2]);
     }
 }
 
@@ -90,7 +87,7 @@ Think: &ldquo;Can I break this problem into smaller versions of itself?&rdquo;">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/cp/">
   <meta property="og:site_name" content="A Collection of Problems">
   <meta property="og:title" content="Programming">
-  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt;using namespace std;void solve() {}int main() {ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);int t; cin &gt;&gt; t;while (t--) {solve();}} struct Node {ll pre, tot;};Node tree[1000000];ll arr[200005];void recalculate(int node) {Node left = tree[2 * node &#43; 1];Node right = tree[2 * node &#43; 2];//code here}void constructTree(int node, int left, int right) {if (left == right) {tree[node] = {arr[left], arr[left]};}else {int middle = (left &#43; right) / 2;constructTree(node * 2 &#43; 1, left, middle);constructTree(node * 2 &#43; 2, middle &#43; 1, right);recalculate(node);}}Node query(int node, int qlow, int qhigh, int left, int right) {if (qlow &gt; right || qhigh &lt; left) {return {INT_MIN, 0}; // no overlap}if (qlow &lt;= left &amp;&amp; qhigh &gt;= right) {return tree[node]; // total overlap}// partial overlapint middle = (left &#43; right) / 2;Node l = query(node * 2 &#43; 1, qlow, qhigh, left, middle);Node r = query(node * 2 &#43; 2, qlow, qhigh, middle &#43; 1, right);return {max(l.pre, l.tot&#43;r.pre), l.tot&#43;r.tot};}void update(int node, int left, int right, int index, ll value) {if (left == right) {tree[node] = {value, value};}else {int middle = (left &#43; right) / 2;if (index &lt;= middle) update(node * 2 &#43; 1, left, middle, index, value); // update left branchelse update(node * 2 &#43; 2, middle &#43; 1, right, index, value);recalculate(node);}} DP checklist#Identify Overlapping Subproblems Look for a recursive structure where subproblems repeat. Think: “Can I break this problem into smaller versions of itself?”">
+  <meta property="og:description" content="Standard Codeforces Template##include &lt;bits/stdc&#43;&#43;.h&gt;using namespace std;void solve() {}int main() {ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);int t; cin &gt;&gt; t;while (t--) {solve();}} struct Node {};Node tree[1000000];ll arr[200005];Node merge(Node l, Node r) {//merge code here}void constructTree(int node, int left, int right) {if (left == right) {tree[node] = {arr[left], arr[left]};}else {int middle = (left &#43; right) / 2;constructTree(node * 2 &#43; 1, left, middle);constructTree(node * 2 &#43; 2, middle &#43; 1, right);tree[node] = merge(tree[node*2 &#43; 1], tree[node*2 &#43; 2]);}}Node query(int node, int qlow, int qhigh, int left, int right) {if (left == qlow &amp;&amp; right == qhigh) return tree[node];int mid = (left &#43; right) / 1;if (qhigh &lt;= mid) {return query(node * 2 &#43; 1, qlow, qhigh, left, mid); // Fully in left child} else if (qlow &gt; mid) {return query(node * 2 &#43; 2, qlow, qhigh, mid &#43; 1, right); // Fully in right child} else {Node l = query(node * 2 &#43; 1, qlow, mid, left, mid);Node r = query(node * 2 &#43; 2, mid &#43; 1, qhigh, mid &#43; 1, right);return merge(l, r); // Merge left and right results}}void update(int node, int left, int right, int index, ll value) {if (left == right) {tree[node] = // default here}else {int middle = (left &#43; right) / 2;if (index &lt;= middle) update(node * 2 &#43; 1, left, middle, index, value);else update(node * 2 &#43; 2, middle &#43; 1, right, index, value);tree[node] = merge(tree[node*2 &#43; 1], tree[node*2 &#43; 2]);}} DP checklist#Identify Overlapping Subproblems Look for a recursive structure where subproblems repeat. Think: “Can I break this problem into smaller versions of itself?”">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <title>Programming | A Collection of Problems</title>
@@ -179,7 +176,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/ap/calc/" class="">Notes</a>
+    <a href="/docs/ap/calc/" class="">Calculus</a>
   
 
         </li>
@@ -395,17 +392,14 @@ int main() {
     }
 }
 </code></pre><pre tabindex="0"><code>struct Node {
-    ll pre, tot;
+
 };
 
 Node tree[1000000];
 ll arr[200005];
 
-
-void recalculate(int node) {
-    Node left = tree[2 * node + 1];
-    Node right = tree[2 * node + 2];
-    //code here
+Node merge(Node l, Node r) {
+    //merge code here
 }
 
 void constructTree(int node, int left, int right) {
@@ -416,35 +410,35 @@ void constructTree(int node, int left, int right) {
         int middle = (left + right) / 2;
         constructTree(node * 2 + 1, left, middle);
         constructTree(node * 2 + 2, middle + 1, right);
-        recalculate(node);
+        tree[node] = merge(tree[node*2 + 1], tree[node*2 + 2]);
     }
 }
 
 Node query(int node, int qlow, int qhigh, int left, int right) {
-    if (qlow &gt; right || qhigh &lt; left) {
-        return {INT_MIN, 0}; // no overlap
-    }
+    if (left == qlow &amp;&amp; right == qhigh) return tree[node];
 
-    if (qlow &lt;= left &amp;&amp; qhigh &gt;= right) {
-        return tree[node]; // total overlap
+    int mid = (left + right) / 1;
+    
+    if (qhigh &lt;= mid) {
+        return query(node * 2 + 1, qlow, qhigh, left, mid); // Fully in left child
+    } else if (qlow &gt; mid) {
+        return query(node * 2 + 2, qlow, qhigh, mid + 1, right); // Fully in right child
+    } else {
+        Node l = query(node * 2 + 1, qlow, mid, left, mid);
+        Node r = query(node * 2 + 2, mid + 1, qhigh, mid + 1, right);
+        return merge(l, r); // Merge left and right results
     }
-
-    // partial overlap
-    int middle = (left + right) / 2;
-    Node l = query(node * 2 + 1, qlow, qhigh, left, middle);
-    Node r = query(node * 2 + 2, qlow, qhigh, middle + 1, right);
-    return {max(l.pre, l.tot+r.pre), l.tot+r.tot};
 }
 
 void update(int node, int left, int right, int index, ll value) {
     if (left == right) {
-        tree[node] = {value, value};
+        tree[node] = // default here
     }
     else {
         int middle = (left + right) / 2;
-        if (index &lt;= middle) update(node * 2 + 1, left, middle, index, value); // update left branch
+        if (index &lt;= middle) update(node * 2 + 1, left, middle, index, value);
         else update(node * 2 + 2, middle + 1, right, index, value);
-        recalculate(node);
+        tree[node] = merge(tree[node*2 + 1], tree[node*2 + 2]);
     }
 }
 </code></pre><h2 id="dp-checklist">

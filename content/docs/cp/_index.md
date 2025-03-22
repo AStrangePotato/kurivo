@@ -25,17 +25,14 @@ int main() {
 
 ```
 struct Node {
-    ll pre, tot;
+
 };
 
 Node tree[1000000];
 ll arr[200005];
 
-
-void recalculate(int node) {
-    Node left = tree[2 * node + 1];
-    Node right = tree[2 * node + 2];
-    //code here
+Node merge(Node l, Node r) {
+    //merge code here
 }
 
 void constructTree(int node, int left, int right) {
@@ -46,35 +43,35 @@ void constructTree(int node, int left, int right) {
         int middle = (left + right) / 2;
         constructTree(node * 2 + 1, left, middle);
         constructTree(node * 2 + 2, middle + 1, right);
-        recalculate(node);
+        tree[node] = merge(tree[node*2 + 1], tree[node*2 + 2]);
     }
 }
 
 Node query(int node, int qlow, int qhigh, int left, int right) {
-    if (qlow > right || qhigh < left) {
-        return {INT_MIN, 0}; // no overlap
-    }
+    if (left == qlow && right == qhigh) return tree[node];
 
-    if (qlow <= left && qhigh >= right) {
-        return tree[node]; // total overlap
+    int mid = (left + right) / 1;
+    
+    if (qhigh <= mid) {
+        return query(node * 2 + 1, qlow, qhigh, left, mid); // Fully in left child
+    } else if (qlow > mid) {
+        return query(node * 2 + 2, qlow, qhigh, mid + 1, right); // Fully in right child
+    } else {
+        Node l = query(node * 2 + 1, qlow, mid, left, mid);
+        Node r = query(node * 2 + 2, mid + 1, qhigh, mid + 1, right);
+        return merge(l, r); // Merge left and right results
     }
-
-    // partial overlap
-    int middle = (left + right) / 2;
-    Node l = query(node * 2 + 1, qlow, qhigh, left, middle);
-    Node r = query(node * 2 + 2, qlow, qhigh, middle + 1, right);
-    return {max(l.pre, l.tot+r.pre), l.tot+r.tot};
 }
 
 void update(int node, int left, int right, int index, ll value) {
     if (left == right) {
-        tree[node] = {value, value};
+        tree[node] = // default here
     }
     else {
         int middle = (left + right) / 2;
-        if (index <= middle) update(node * 2 + 1, left, middle, index, value); // update left branch
+        if (index <= middle) update(node * 2 + 1, left, middle, index, value);
         else update(node * 2 + 2, middle + 1, right, index, value);
-        recalculate(node);
+        tree[node] = merge(tree[node*2 + 1], tree[node*2 + 2]);
     }
 }
 ```
