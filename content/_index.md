@@ -179,6 +179,105 @@ antecedent - sequentially before
 
 impending - sequentially after
 
+amorous - relating to sexual desire
+
+scant - barely sufficient or adequate
+
+vehement - strong, forceful, intense
+
+austere - severe, strict / no comforts or luxuries / extremely plain style
+
+assent - expression of agreement
+
+placated - make someone less hostile
+
+extempore - impromptu, spoken or done without preparation
+
+bereft - deprived or lacking / (of a person) sad and lonely, especially with someones leave
+
+scrupulous - diligent, attentive to detail, concerned to do wrong
+
+cessation - the process of ending 
+
+vicarious - experiencing something indirectly through another person
+
+loquacious - tending to talk a lot, often overwhelming
+
+engorged - swelling with a fluid
+
+ascribe - attribute to something
+
+debilitating - making something very weak and infirm
+
+temperance - the quality of moderation or self restraint
+
+eschew - to deliberately avoid something
+
+disciple - follower of a teacher or Christ
+
+eclectic - drawing from a variety of sources, styles, suggesting diversity and a mix of influence
+
+contingent - subject to change
+
+provision - action of supplying or providing something
+
+contingency - an event, such as an emergency that may happen but cannot be predicted with clarity
+
+inordinate - unusually or disproportionally large
+
+accord - a state of harmony, agreement
+
+insiduous - proceeding in a gradual, subtle way but with harmful effects
+
+fidelity - being faithful and loyal
+
+apposite - perfectly appropriate in the circumstances, apt
+
+haughty - arrogantly disdainful
+
+pretext - ostensible justification for an action
+
+imperious - assuming power or authority without justification
+
+exhortation - an address urging someone to do something
+
+stridently - in an extremely forceful way
+
+brusquely - blint, curt, rudely brief, lack of politeness
+
+caprice - a sudden and unaccountable change in mood or behavior
+
+pedantry - excessive concern with formalism, unimportant details
+
+contrarian - a person who opposes or rejects popular opinion
+
+canonically - in a manner according to best practices or accepted principles
+
+limpid - clear (of liquid, eyes, or music)
+
+interstices - an intervening space, especially a small one
+
+tacit - implied without being stated
+
+transgression - an act that goes against a law; an offense
+
+patron - someone who gives support, sponsor / customer
+
+cadaverous - resembling a corpse, thin, bony
+
+precocity - exceptionally early development, in mental or sexual characteristic
+
+impetuous - action or done quickly without thought
+
+gaudy - extravagantly flashly to the point of being tasteless
+
+lurid - vividly harsh or unnatural
+
+
+
+
+
+
 
 ### Sat Mistakes
 
