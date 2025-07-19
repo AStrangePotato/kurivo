@@ -17,264 +17,181 @@ most correct not could be correct
 just mark as review and come back
 watch transitions
 
-Random SAT vocab
 
-[Quizlet](https://quizlet.com/ca/1015514699/vocabulary-list-with-definitions-and-meanings-flash-cards/)
-
-ambivalence - the state of having mixed feelings or contradictory ideas about something or someone
-
-buttress - to increase the strength of or justification for; to reinforce
-
-apprehensive - anxious or fearful that sometihng bad or unpleasant will happen
-
-brevity - concise and exact use of words in writing or speech
-
-corroborate - confirm or give support to 
-
-deference - humble submission and respect
-
-impose - to put into place a policy for example OR to take advantage of someone by demanding attention or commitmment
-
-pervasive - spreading widely throughout an area or a group of people in an unpleasant way
-
-denounce - criticize, renounce - reject something
-
-substantiate - to provide evidence to support and prove the truth of
-
-tenuous - very weak or slight
-
-versimilitude - appearance of being true or real
-
-endow - provide with a quality, ability or asset
-
-lest - for fear that
-
-conceit - excessive pride in oneself, vanity
-
-sequestered - isolated, hidden away
-
-listlessly - no energy and enthusiasm, unwilling to do anything needing effort
-
-venerable - great deal of respect to someone, age, wisdom, character
-
-dissension - disagreement 
-
-galvanizing - shock or excite to take action
-
-avant-garde - new and innovative
-
-prudent - acting with care and thought for the future; sensible and cautious
-
-overtly - in an open and obvious manner; not hidden or secret
-
-cordially - in a warm and friendly way; politely and sincerely
-
-inadvertently - unintentionally; without meaning to or by accident
-
-gospel - a set of beliefs regarded as absolutely true; the teaching or revelation of Christ
-
-evinced - revealed or demonstrated clearly; made evident
-
-posit - to assume or put forward as a fact or basis for argument
-
-quotidian - occurring daily; ordinary or mundane
-
-minutiae - small or trivial details; minor aspects of something
-
-conception - the formation of an idea or understanding; the beginning of something
-
-sociology - the study of human society, its institutions, relationships, and development
-
-impassive - not showing or feeling emotion; expressionless
-
-gaiety - the state of being cheerful, lively, and full of joy
-
-confer - grant or bestow / discuss
-
-tenous - very weak or slight
-
-repudiation - rejection of a proposal or idea
-
-preclude - prevent from happening, make impossible
-
-redress - remedy or set right
-
-paucity - scarce
-
-profusion - abundance
-
-epistolary - related to letters, literary
-
-desultory - lacking a plan, purpose, or enthusiasm
-
-spurious - not what it claims to be, false, fake
-
-veritable - used as an intensifier, often with a metaphor
-
-notional - existing in theory or idea
-
-misgivings - a bad feeling about the outcome
-
-conflate - combine
-
-demarcated - set boundaries, limits / seperate, distinguish
-
-recant - say that one no longer holds a belief or opinion   
-
-nominally - in name only, but not perhaps in reality
-
-pragmatic - dealing with things in a realistic and practical way, matter of fact
-
-exulted - feel or show triumphant jubilation, elation
-
-latent - hidden, concealed, inactive
-
-operative - operable, functioning
-
-lauded - highly praised and admired
-
-sanguine - optimistic, especially in a bad situation
-
-recalcitrant - stubborunly uncooperative with authority or disclipine
-
-obstinate - stubborn
-
-misanthropic - disliking humankind
-
-earnest - showing sincere and intense opinion
-
-veracity - conformant to facts, accurate
-
-supervene - occur later than intended, typically in a way that changes the situation
-
-transient - lasting a short time
-
-recourse - a source of help in a difficult situation
-
-sullied - damage the purity of
-
-pretence - an act, claim that is false or ambitious
-
-litany - a tedious recital of repetitive events
-
-cavalier - showing a lack of proper concern
-
-dulcet - of a sound, especially pleasing
-
-edifice - a large, imposing building
-
-epitomy - a perfect ideal example
-
-equanimity - composure and calmness in a difficult situation
-
-languish - waste away, grow weak
-
-reprise - repeated passage in music
-
-surmise - suppose true without evidence
-
-subsist - persist
-
-antecedent - sequentially before
-
-impending - sequentially after
-
-amorous - relating to sexual desire
-
-scant - barely sufficient or adequate
-
-vehement - strong, forceful, intense
-
-austere - severe, strict / no comforts or luxuries / extremely plain style
-
-assent - expression of agreement
-
-placated - make someone less hostile
-
-extempore - impromptu, spoken or done without preparation
-
-bereft - deprived or lacking / (of a person) sad and lonely, especially with someones leave
-
-scrupulous - diligent, attentive to detail, concerned to do wrong
-
-cessation - the process of ending 
-
-vicarious - experiencing something indirectly through another person
-
-loquacious - tending to talk a lot, often overwhelming
-
-engorged - swelling with a fluid
-
-ascribe - attribute to something
-
-debilitating - making something very weak and infirm
-
-temperance - the quality of moderation or self restraint
-
-eschew - to deliberately avoid something
-
-disciple - follower of a teacher or Christ
-
-eclectic - drawing from a variety of sources, styles, suggesting diversity and a mix of influence
-
-contingent - subject to change
-
-provision - action of supplying or providing something
-
-contingency - an event, such as an emergency that may happen but cannot be predicted with clarity
-
-inordinate - unusually or disproportionally large
-
-accord - a state of harmony, agreement
-
-insiduous - proceeding in a gradual, subtle way but with harmful effects
-
-fidelity - being faithful and loyal
-
-apposite - perfectly appropriate in the circumstances, apt
-
-haughty - arrogantly disdainful
-
-pretext - ostensible justification for an action
-
-imperious - assuming power or authority without justification
-
-exhortation - an address urging someone to do something
-
-stridently - in an extremely forceful way
-
-brusquely - blint, curt, rudely brief, lack of politeness
-
-caprice - a sudden and unaccountable change in mood or behavior
-
-pedantry - excessive concern with formalism, unimportant details
-
-contrarian - a person who opposes or rejects popular opinion
-
-canonically - in a manner according to best practices or accepted principles
-
-limpid - clear (of liquid, eyes, or music)
-
-interstices - an intervening space, especially a small one
-
-tacit - implied without being stated
-
-transgression - an act that goes against a law; an offense
-
-patron - someone who gives support, sponsor / customer
-
-cadaverous - resembling a corpse, thin, bony
-
-precocity - exceptionally early development, in mental or sexual characteristic
-
-impetuous - action or done quickly without thought
-
-gaudy - extravagantly flashly to the point of being tasteless
-
-lurid - vividly harsh or unnatural
-
-
-
+[Quizlet] (https://quizlet.com/ca/1061168710/vocabulary-list-with-definitions-and-contexts-flash-cards/)
+
+
+
+ambivalence – the state of having mixed feelings or contradictory ideas about something or someone
+buttress – to support or strengthen; to reinforce or justify
+apprehensive – anxious or fearful that something bad or unpleasant will happen
+brevity – concise and exact use of words in writing or speech
+corroborate – to confirm or give support to a statement, theory, or finding
+deference – humble submission and respect
+impose – to enforce or apply (a rule or policy); to take advantage by demanding attention or commitment
+pervasive – spreading widely throughout an area or group, often in an unwelcome way
+denounce – to publicly declare something to be wrong or evil
+renounce – to formally declare one’s abandonment of a claim, right, or belief
+substantiate – to provide evidence to support or prove the truth of something
+tenuous – very weak or slight
+verisimilitude – the appearance of being true or real
+endow – to provide with a quality, ability, or asset
+lest – for fear that; to avoid the risk of
+conceit – excessive pride in oneself; vanity
+sequestered – isolated or hidden away
+listlessly – lacking energy or enthusiasm; unwilling to exert effort
+venerable – accorded great respect due to age, wisdom, or character
+dissension – disagreement that leads to discord
+galvanizing – arousing to action or awareness; also, to coat metal with zinc to prevent rusting
+avant-garde – innovative, experimental, especially in the arts
+prudent – acting with or showing care and thought for the future
+overtly – openly and obviously; not secret or hidden
+cordially – in a warm, friendly, and polite manner
+inadvertently – unintentionally; without deliberate planning
+gospel – a set of principles or beliefs regarded as undeniably true; also, the teachings of Christ
+evinced – revealed or demonstrated clearly; made evident
+posit – to assume or put forward as a fact or basis for argument
+quotidian – occurring daily; ordinary and mundane
+minutiae – small or trivial details
+conception – the formation of an idea; the beginning of something
+sociology – the study of human society, institutions, relationships, and development
+impassive – not showing or feeling emotion
+gaiety – the state of being cheerful and lively
+confer – to grant or bestow; to discuss or consult
+repudiation – rejection of a proposal or belief
+preclude – to prevent something from happening; make impossible
+redress – to remedy or set right
+paucity – scarcity; small quantity
+profusion – an abundance or large quantity
+epistolary – relating to or consisting of letters or written correspondence
+desultory – lacking a plan, purpose, or enthusiasm; disconnected
+spurious – false or fake; not genuine
+veritable – used to intensify a metaphor; real or genuine
+notional – existing only in theory or as an idea
+misgivings – doubts or apprehensions about an outcome
+conflate – to combine two or more things into one
+demarcated – set boundaries or limits; distinguish
+recant – to withdraw or retract a belief or statement publicly
+nominally – in name only; not in reality
+pragmatic – dealing with things realistically and practically
+exulted – felt or showed triumphant joy
+latent – hidden or dormant but capable of emerging
+operative – functioning; in effect
+lauded – highly praised
+sanguine – optimistic, especially in a bad situation
+recalcitrant – stubbornly resistant to authority or control
+obstinate – stubborn; refusing to change one's opinion
+misanthropic – disliking or avoiding humankind
+earnest – showing sincere and intense conviction
+veracity – conformity to facts; truthfulness
+supervene – to occur unexpectedly or later, altering a situation
+transient – lasting for a short time; temporary
+recourse – a source of help in a difficult situation
+sullied – soiled, tarnished, or damaged in purity
+pretence – a false claim or act intended to deceive
+litany – a long, repetitive account or list
+cavalier – showing a lack of proper concern; dismissive
+dulcet – sweet and soothing (especially of sound)
+edifice – a large, imposing building
+epitome – a perfect or typical example of something
+equanimity – mental calmness and composure under stress
+languish – to weaken or deteriorate over time
+lethargy – a state of sluggishness, inactivity, or apathy
+reprise – a repeated passage in music or performance
+surmise – to suppose something is true without evidence
+subsist – to maintain or support oneself, especially at a minimal level
+antecedent – something that comes before; a prior event or cause
+impending – about to happen; looming
+amorous – relating to romantic or sexual desire
+scant – barely sufficient or adequate
+vehement – showing strong, forceful, or intense feeling
+austere – severe in manner or appearance; plain; lacking luxuries
+assent – expression of approval or agreement
+placate – to calm or pacify, especially by making concessions
+extempore – spoken or done without preparation; impromptu
+bereft – deprived of something; sad due to loss
+scrupulous – thorough and attentive to detail; morally principled
+cessation – the process of ending or being brought to an end
+vicarious – experienced indirectly through another person
+loquacious – talkative, often excessively
+engorged – swollen with fluid or blood
+ascribe – to attribute something to a cause or source
+debilitating – making someone weak or infirm
+temperance – moderation or self-restraint
+eschew – to deliberately avoid or abstain from
+disciple – a follower or student of a teacher, leader, or philosophy
+eclectic – deriving ideas, style, or taste from a broad range of sources
+contingent – subject to chance or dependent on conditions
+provision – the action of supplying or making available
+contingency – a future event or circumstance that is possible but unpredictable
+inordinate – unusually large; excessive
+accord – a state of agreement or harmony
+insidious – proceeding subtly but with harmful effects
+fidelity – faithfulness and loyalty to a person, cause, or belief
+apposite – apt; appropriate in the circumstances
+haughty – arrogantly superior and disdainful
+pretext – a false reason given to justify an action
+imperious – assuming authority without justification; domineering
+exhortation – strong encouragement or urging
+stridently – in a loud, harsh, or forceful manner
+brusquely – abruptly and curtly, often rudely
+caprice – a sudden, unaccountable change of mood or behavior
+pedantry – excessive concern with minor details or rules
+contrarian – a person who opposes or rejects popular opinion
+canonically – according to recognized rules or standards
+limpid – completely clear or transparent (liquid, eyes, or music)
+interstices – small gaps or spaces between things
+tacit – understood or implied without being stated
+transgression – a violation of a law or moral code
+patron – a supporter, sponsor, or regular customer
+cadaverous – resembling a corpse; pale, thin, or bony
+precocity – unusually early development or maturity
+impetuous – acting quickly without thought; rash
+gaudy – extravagantly showy, often tastelessly
+lurid – vividly shocking or sensational; harshly vivid
+atone – to make amends for wrongdoing
+malign – to speak ill of; evil in nature or effect
+duly – as expected or appropriate; properly
+unduly – excessively; to an unjustified extent
+amenable – open to suggestion; easily persuaded or influenced
+affable – friendly, good-natured, and easy to talk to
+acquiesce – to accept something reluctantly but without protest
+abject – experienced to the maximum degree (bad); degraded or humble
+abasing – degrading or belittling oneself or another
+filial – relating to a son or daughter
+piety – devotion to religious duties or principles
+reverent – showing deep respect
+frivolous – not serious; lacking in purpose or value
+illustrious – well-known and respected for achievements
+vignette – a brief, evocative description or scene
+multifarious – having great variety; diverse
+anthology – a collection of literary works
+incumbent – currently holding office; necessary as a duty
+disparate – fundamentally different or distinct
+derisive – expressing contempt or ridicule
+contempt – scorn; the feeling that something is worthless
+indignation – anger at perceived injustice or unfairness
+provenance – the origin or source of something
+prevailed – succeeded or triumphed; gained influence
+repugnant – extremely distasteful or unacceptable
+castigate – to reprimand harshly
+reprehensible – deserving blame or condemnation
+disparage – to belittle or speak of with little respect
+vindicate – to clear from blame or suspicion
+stringent – strict, precise, and exacting
+consign – to deliver something to someone's custody, especially for sale
+preponderance – the quality or fact of being greater in number or importance
+extant – still existing; not lost or destroyed
+orthodox – conforming to traditional or established beliefs
+bygone – belonging to an earlier time; past
+mendacity – untruthfulness; tendency to lie
+obviate – to eliminate the need for something; to prevent
+espouse – to adopt or support a belief or cause
+untenable – not able to be defended or justified
+chronicle – a factual written account of events in order
+inviolate – not violated; pure and untouched
+chastise – to scold or criticize severely
+lament – to mourn or express sorrow
 
 
 
